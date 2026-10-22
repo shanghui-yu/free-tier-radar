@@ -1,0 +1,528 @@
+RackNerd | VPS Specials
+CURRENT PROMOTIONS: Deals that everyone is opting for. WHILE AVAILABLE. GET YOURS.
+REVEAL DEALS >
+DISCOUNT
+Save 15% off for life on all dedicated servers using promo code: 15OFFDEDI
+[email protected]
+MY ACCOUNT
+Home
+Hosting
+Shared Hosting
+Reseller Hosting
+VPS
+KVM VPS
+AI VPS
+AMD Ryzen VPS
+Windows VPS
+Dedicated Servers
+Hybrid Servers
+Bare Metal Servers
+AMD Ryzen Dedicated Servers
+10Gbps Unmetered Servers
+20Gbps Unmetered Servers
+40Gbps Unmetered Servers
+SEO Dedicated Servers
+Colocation
+Partners
+Affiliates
+Become a Reseller
+Datacenters
+Los Angeles Datacenter
+San Jose Datacenter
+Utah Datacenter
+Chicago Datacenter
+Dallas Datacenter
+New York Datacenter
+Atlanta Datacenter
+Ashburn Datacenter
+Toronto Datacenter
+--> View More Datacenters <--
+About Us
+About RackNerd
+ctrl Control Panel
+Blog
+Contact Us
+RackNerd
+New VPS specials
+Pick your VPS deal.
+High-performance KVM VPS, perfect for self-host and AI workloads! Every plan includes full root access, one-click apps, and access to ctrl - RackNerd’s modern control panel. RackNerd is trusted by hundreds of thousands of customers globally, and recognized on the Inc. 5000.
+View plans and pricing
+Try the ctrl demo
+RackNerd VPS specials
+1 GB
+1 vCPU · 20 GB SSD
+$21.99/yr
+2 GB
+2 vCPU · 35 GB SSD Popular
+$35.99/yr
+4 GB
+3 vCPU · 60 GB SSD
+$59.99/yr
+6 GB
+6 vCPU · 100 GB SSD
+$89.99/yr
+8 GB
+7 vCPU · 150 GB SSD
+$119.99/yr
+Deploy 2 GB now
+Compare full specs
+Instantly provisioned. Just pick.
+Launch a KVM VPS and choose from Ubuntu, Debian, AlmaLinux, and more! Full root SSH access included, and custom ISO installs are also available upon request via a support ticket.
+1 GB KVM VPS
+$21.99/year
+1 vCPU Core
+20 GB SSD Storage
+1 GB RAM
+3 TB Monthly Transfer
+1Gbps Network Port
+Full Root Access
+1 IPv4 Address
+KVM/ctrl Panel
+Deploy in Multiple Locations
+Order now
+Most popular
+2 GB KVM VPS
+$35.99/year
+2 vCPU Cores
+35 GB SSD Storage
+2 GB RAM
+5 TB Monthly Transfer
+1Gbps Network Port
+Full Root Access
+1 IPv4 Address
+KVM/ctrl Panel
+Deploy in Multiple Locations
+Order now
+4 GB KVM VPS
+$59.99/year
+3 vCPU Cores
+60 GB SSD Storage
+4 GB RAM
+7 TB Monthly Transfer
+1Gbps Network Port
+Full Root Access
+1 IPv4 Address
+KVM/ctrl Panel
+Deploy in Multiple Locations
+Order now
+6 GB KVM VPS
+$89.99/year
+6 vCPU Cores
+100 GB SSD Storage
+6 GB RAM
+12 TB Monthly Transfer
+1Gbps Network Port
+Full Root Access
+1 IPv4 Address
+KVM/ctrl Panel
+Deploy in Multiple Locations
+Order now
+8 GB KVM VPS
+$119.99/year
+7 vCPU Cores
+150 GB SSD Storage
+8 GB RAM
+20 TB Monthly Transfer
+1Gbps Network Port
+Full Root Access
+1 IPv4 Address
+KVM/ctrl Panel
+Deploy in Multiple Locations
+Order now
+Why choose RackNerd?
+Reliable, high-performance KVM VPS backed by real support. Order with a provider that has a proven track record and is here to stay.
+Instant setup
+Your VPS is provisioned right after payment, so you can get online in minutes.
+Multiple locations
+Choose a datacenter close to your users for lower latency on every plan.
+KVM virtualization
+Full KVM for dedicated resources, stronger isolation, and steady performance.
+ctrl control panel
+Reboot, reinstall, console, firewall, and one-click apps from one modern panel.
+24/7 support
+Our support team is available around the clock when you need a hand.
+1Gbps network
+Every special includes a 1Gbps port for fast, reliable connectivity.
+One-click apps
+Install AdminBolt, OpenClaw, AnythingLLM, Ollama, LibreChat, and more from ctrl in a single click.
+ctrl Network Firewall
+Filter inbound traffic in front of your VPS, with rules you manage right from ctrl.
+Interactive ctrl demo
+Explore the navigation, manage a VPS, try the network firewall, browse One-Click Apps, and even try an installation - no account required. This interactive demo is a preview of the ctrl experience - exclusively available on RackNerd VPS services!
+Virtual Servers
+Manage VPS
+Reinstall
+Console / VNC
+One-Click Apps
+Firewall
+My Account
+ctrl - client panel (demo)
+ctrl.
+Virtual Servers
+My Account
+Logout
+Virtual Servers
+Manage your RackNerd VPS instances from one place.
+Welcome
+RackNerd ctrl panel
+Restart or power your server on and off, reinstall or change the operating system, monitor bandwidth, and more - all from here.
+Hostname
+IP Address
+Operating System
+vCPU
+Memory
+Disk
+ai-builder.demo
+203.0.113.42
+Ubuntu LTS
+4 Cores
+8 GB RAM
+80 GB
+Manage
+n8n-workflows.demo
+203.0.113.77
+Ubuntu LTS
+2 Cores
+4 GB RAM
+40 GB
+Manage
+Virtual Servers / Manage
+ai-builder.demo
+203.0.113.42 · Los Angeles, USA
+Online
+Firewall Enabled · Manage
+↻ Refresh
+Reboot
+Console/VNC
+Reinstall
+One-Click Apps
+Firewall
+Reset Root Pass
+Upgrade
+Ubuntu LTS
+Node: LAX-KVM-07 · KVM
+8 GBMemory
+80 GBDisk space
+5 TBBandwidth
+Bandwidth Usage34%
+1.72 TB of 5 TB Used / 3.28 TB Free
+Disk Usage41%
+32.8 GB of 80 GB Used / 47.2 GB Free
+↻Reboot
+⏹Shutdown
+▶Boot
+⏻Power Off
+🖥Console/VNC
+⧉Reinstall
+⑂Reconfigure Network
+🛟Rescue Mode
+Virtual Servers /
+Manage /
+Reinstall
+Reinstall ai-builder.demo
+203.0.113.42 · Choose a fresh OS template
+Back to Manage
+Warning: Reinstalling will permanently erase all data on this virtual server, including the operating system, applications, and files. This action cannot be undone.
+Ubuntu
+Popular general-purpose Linux. Great for apps, Docker, and one-click installs.
+Debian
+Stable, minimal base system preferred by many production workloads.
+AlmaLinux
+Enterprise-ready RHEL-compatible distribution for long-term support.
+Rocky Linux
+Community enterprise Linux, binary compatible with RHEL.
+CentOS
+Enterprise Linux family widely used for servers and development.
+Preparing OS template…
+Back
+Reinstall
+Virtual Servers /
+Manage /
+Console
+ai-builder.demo
+HTML5 VNC console preview
+Back to Manage
+Within ctrl, you can access out-of-band HTML5 VNC console! Perfect for troubleshooting and recovery, or for custom OS installations.
+vnc · ai-builder.demo · 203.0.113.42
+● connected
+root@ai-builder:~#
+Open HTML5 VNC Console
+Virtual Servers /
+Manage /
+One-Click Apps
+Back to Manage
+Coolify is ready
+Demo credentials would appear here in the live panel (SSH + app login).
+Open panel
+Coolify install in progress
+Usually finishes in about 15 minutes. This status bar will update once complete.
+Cancel install
+For your convenience, RackNerd offers several applications that can be deployed with a single click. Don’t see what you need? Full root SSH is included.
+Warning: Proceeding with a one-click application install will permanently erase all existing data on this virtual server, including the operating system, applications, and files.
+AdminBolt
+Popular
+Minimum Requirements:
+2+ vCPU · 2+ GB RAM
+Installs on AlmaLinux 9
+AdminBolt is a modern, affordable hosting control panel that brings website, email, DNS, SSL, WordPress, and database management together in one easy-to-use interface. Install AdminBolt in one click through ctrl and enjoy a 30-day free trial.
+Install AdminBolt
+OpenClaw
+Minimum Requirements:
+4+ vCPU · 8+ GB RAM
+Self-hosted AI assistant for automating tasks, workflows, messaging, and connected services.
+Install OpenClaw
+Hermes Agent
+Minimum Requirements:
+2+ vCPU · 4+ GB RAM
+Self-hosted AI agent with a web dashboard for chat, tools, messaging gateways, and automation. Configure your own LLM API key after install.
+Install Hermes Agent
+n8n
+Minimum Requirements:
+2+ vCPU · 2+ GB RAM
+Self-hosted workflow automation platform for connecting apps, APIs, databases, and services.
+Install n8n
+AnythingLLM
+Minimum Requirements:
+2+ vCPU · 4+ GB RAM
+Self-hosted AI workspace for document chat, agents, and private knowledge bases. Connect your own LLM provider after install.
+Install AnythingLLM
+Ollama
+Minimum Requirements:
+2+ vCPU · 4+ GB RAM
+Self-hosted chat for open-source language models. Ollama runs the models, and Open WebUI is the chat interface.
+Install Ollama
+LibreChat
+Minimum Requirements:
+2+ vCPU · 4+ GB RAM
+Self-hosted chat interface for multiple AI providers, with accounts and conversation history on your server.
+Install LibreChat
+Portainer
+Minimum Requirements:
+1+ vCPU · 2+ GB RAM
+Web-based Docker container management for deploying and managing containers, images, and stacks.
+Install Portainer
+Coolify
+Minimum Requirements:
+2+ vCPU · 2+ GB RAM
+Self-hosted PaaS for deploying apps, databases, and services with automatic SSL and Git-based workflows.
+Install Coolify
+Webmin
+Minimum Requirements:
+1+ vCPU · 1+ GB RAM
+Web-based Linux system administration for managing Linux users, services, packages, and system settings.
+Install Webmin
+CyberPanel
+Minimum Requirements:
+1+ vCPU · 1+ GB RAM
+Web hosting control panel for managing and hosting websites, email, DNS, databases, SSL, and more.
+Install CyberPanel
+CloudPanel
+Minimum Requirements:
+1+ vCPU · 2+ GB RAM
+Modern web hosting control panel for PHP, Node.js, Python, and static sites with NGINX, free SSL, and MySQL.
+Install CloudPanel
+WireGuard (wg-easy)
+Minimum Requirements:
+1+ vCPU · 1+ GB RAM
+WireGuard VPN with the wg-easy web UI for creating clients, QR codes, and managing peers.
+Install WireGuard (wg-easy)
+Virtual Servers /
+Manage /
+ctrl Network Firewall
+203.0.113.42 · Optional inbound filter in front of your VPS
+Back to Manage
+No firewall is currently enabled on our side for this VPS.
+By default, we do not block any ports. If a port is unreachable, check your operating system firewall first.
+For an extra layer of protection, you can enable the ctrl Network Firewall. This optional filter sits on our side of the network, before traffic reaches your server’s operating system.
+Your OS firewall (UFW, firewalld, iptables, etc.) still applies afterward.
+Both layers must allow a port for that port to be reachable.
+You can turn this off anytime. Saved rules are kept.
+Enable Firewall
+Re-enable with saved rules
+You have saved rules from earlier in this demo. Re-enable them, or enable as new instead.
+Status: Active · Mode: Recommended
+Inbound traffic passes through the ctrl Network Firewall before reaching your VPS and its OS firewall (such as UFW, firewalld, or iptables). If a port is blocked, you may need to allow it in both places.
+Learn more: ctrl Network Firewall vs. OS firewall
+ctrl Network Firewall (this page)
+Runs on our side of the network, outside your VPS. It can block inbound traffic before your server receives it.
+OS firewall (inside your VPS)
+Your second layer, using tools such as UFW, firewalld, or iptables when you have one set up. Use it for finer control this page does not cover, for example source-IP limits or outbound filtering.
+Traffic flow
+Internet → ctrl Network Firewall → OS firewall (if applicable) → application
+Console access
+Console / VNC does not pass through the ctrl Network Firewall, so you can still correct mistakes from the panel.
+Quick setup
+Recommended (SSH + HTTP/HTTPS)
+Web server
+SSH only
+Custom
+You’re on a custom allow list. Pick a preset above to replace it, or keep editing ports below.
+Apply preset
+Allowed inbound ports
+Only listed ports are allowed. Everything else inbound is blocked while Active.
+0 / 12 rules used. A port range counts as one rule.
+ProtocolPortNote
+Add allow rule
+Protocol
+TCP
+UDP
+ICMP (ping)
+Port
+to
+Note (optional)
+Add rule
+Disable ctrl Network Firewall (allow all ports)
+Turns the filter off immediately in this demo. Saved rules are kept if you want to re-enable later.
+My Account
+Manage your profile, password, and security settings.
+Overview
+Profile
+Password
+Security
+Your Name
+[email protected]
+Your Company
+Last login (before this session): 2 hours ago from 203.0.113.88
+Profile
+Update your name, email, and login alerts
+→
+Password
+Change your ctrl panel login password
+→
+Security
+Two-factor authentication is enabled
+→
+Profile
+Keep your contact details current so we can reach you about your services.
+First name
+Last name
+Email address
+Company
+Email me when someone logs into my ctrl panel account
+Save profile
+Back to overview
+Password
+Choose a strong password you do not use anywhere else. You will need your current password to confirm the change.
+Current password
+New password
+At least 8 characters, including a letter and a number. Avoid common passwords.
+Confirm new password
+Update password
+Back to overview
+Security
+Two-factor authentication
+Add an extra layer of protection with a code from your authenticator app.
+Enabled
+Recovery codes remaining: 8
+Generate new recovery codes
+Disable two-factor
+Login history
+Date / time (UTC)
+IP address
+Oct 22, 2026 04:05 (2 hours ago)
+203.0.113.88
+Oct 21, 2026 06:05 (1 day ago)
+198.51.100.44
+Oct 19, 2026 06:05 (3 days ago)
+203.0.113.88
+Oct 15, 2026 06:05 (1 week ago)
+192.0.2.17
+Back to overview
+Recognized by Inc. Magazine
+RackNerd is proud to be recognized among America’s fastest-growing private companies, including the Inc. 5000, Inc. Regionals Pacific, and the 2026 Inc. 5000 national list.
+2026
+#3693
+Inc. 5000
+National
+2026
+#90
+Inc. Regionals
+Pacific
+2025
+#3036
+Inc. 5000
+National
+2025
+#94
+Inc. Regionals
+Pacific
+2024
+#58
+Inc. Regionals
+Pacific
+2024
+#1506
+Inc. 5000
+National
+View our Inc. profile
+Frequently asked questions
+More questions about a RackNerd VPS special? Contact us.
+Can I renew a RackNerd VPS special at the same rate?
+Yes. These RackNerd VPS specials are lifetime recurring. You can renew at the same rate for as long as you decide to keep the service.
+What is RackNerd ctrl?
+ctrl is RackNerd’s modern control panel, included with every RackNerd VPS special. After your VPS deploys, ctrl is where you manage it: reboot, reinstall the operating system, open an out-of-band HTML5 VNC console, install one-click apps, set inbound rules with the ctrl Network Firewall, reset the root password, and upgrade. The console is there for troubleshooting, recovery, and custom OS installations.
+What if I want to deploy something that is not in the ctrl one-click apps catalog?
+We’re always looking to add more popular options to the one-click catalog in ctrl. If the app you want is not listed yet, a RackNerd VPS special still leaves you in control. You get full root SSH access, so you can install and configure whatever stack you need.
+Can I self-host apps on a RackNerd VPS special?
+Yes. A RackNerd VPS special is a KVM VPS made for self-hosting and AI workloads. Every plan includes full root access, one-click apps in ctrl, and a 1Gbps port. Install AdminBolt, OpenClaw, Hermes Agent, AnythingLLM, Ollama, LibreChat, n8n, and more from ctrl, or bring your own software over SSH.
+Can I run Docker, WordPress, or my own stack on a RackNerd VPS special?
+Yes. On a RackNerd VPS special you can run Docker with Portainer in one click from ctrl, or install Docker yourself over SSH. WordPress fits AdminBolt, CyberPanel, or CloudPanel, which are also one-click apps, or you can set it up on your own. Full root access means a custom stack is always an option.
+Which operating systems can I install on a RackNerd VPS special?
+When you order a RackNerd VPS special, you can choose CentOS, Rocky Linux, AlmaLinux, Fedora, Debian, or Ubuntu. Custom ISO installs are available on request through a support ticket. Later, ctrl can reinstall the OS, and the HTML5 VNC console is there if you want to install from your own media.
+Do RackNerd VPS specials include full root access and an IPv4 address?
+Yes. Every RackNerd VPS special includes full root access, 1 IPv4 address, SSD storage, and a 1Gbps network port. You manage the server from ctrl or over SSH.
+Where can I deploy a RackNerd VPS special, and how fast is it ready?
+A RackNerd VPS special is provisioned right after payment, so you can get online in minutes. You can deploy in multiple RackNerd locations and pick a datacenter close to your users.
+Can I run AI tools like OpenClaw, Hermes Agent, or n8n on a RackNerd VPS special?
+Yes. OpenClaw, Hermes Agent, AnythingLLM, Ollama, LibreChat, n8n, and Coolify are one-click apps in ctrl on a RackNerd VPS special. OpenClaw wants at least 8 GB of RAM. Hermes Agent, AnythingLLM, Ollama, and LibreChat want at least 4 GB. n8n or Coolify are comfortable from 2 GB. After the VPS deploys, open One-Click Apps in ctrl, select the app, and credentials show up in-panel when it’s ready.
+Is a RackNerd VPS special managed?
+A RackNerd VPS special is an unmanaged KVM VPS. You get full root access, and ctrl covers the day-to-day work: power, reinstall, console, one-click apps, and the ctrl Network Firewall. If you need a hand with the platform, RackNerd support is available 24/7.
+RackNerd was founded by industry experts
+with a passion for datacenter environments and server builds.
+Here at RackNerd, we're on a mission to introduce infrastructure stability on a global scale - one server at a time. Learn more about our story and why you should choose RackNerd for your infrastructure as a service (IaaS) needs!
+If you have any questions, our experts are here to help. Just contact us at [email protected].
+READ MORE ABOUT US
+CONTACT US
+HOSTING SERVICES
+Shared Hosting
+Reseller Hosting
+KVM VPS
+AI VPS
+AMD Ryzen VPS
+Windows VPS
+Hybrid Dedicated Servers
+Dedicated Servers
+AMD Ryzen Dedicated Servers
+10Gbps Unmetered Servers
+20Gbps Unmetered Servers
+40Gbps Unmetered Servers
+SEO Dedicated Servers
+Colocation
+COMPANY
+Blog
+About Us
+ctrl Control Panel
+Datacenters
+Contact Us
+Affiliate Program
+Reseller Program
+LEGAL
+Terms of Service
+Affiliates Terms of Service
+Acceptable Use Policy
+Privacy Policy
+Service Level Agreement
+CLIENTS
+Client Login
+Submit Support Ticket
+View Announcements
+Network Status
+twitter
+facebook
+linkedin
+instagram
+TikTok
+#> connect --social
+[email protected]
++1 (888) 881-NERD
+© 2026 RackNerd, All Rights Reserved.

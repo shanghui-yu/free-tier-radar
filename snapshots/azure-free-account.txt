@@ -1,0 +1,205 @@
+Explore Free Azure Services | Microsoft Azure
+Skip to main content
+Azure
+Get to know Azure
+Microsoft as Customer Zero
+View all products (200+)
+Microsoft Foundry
+Azure Copilot
+GitHub Copilot
+Azure Kubernetes Service (AKS)
+Azure Cosmos DB
+Azure Database for PostgreSQL
+Azure Arc
+Microsoft Fabric
+Linux virtual machines in Azure
+Foundry Models
+Foundry Agent Service
+Foundry IQ
+Foundry Tools
+Foundry Control Plane
+Observability in Foundry Control Plane
+Azure OpenAI in Foundry Models
+Azure Speech in Foundry Tools
+Azure Machine Learning
+View all databases
+Azure Cosmos DB
+Azure DocumentDB
+Azure SQL
+Azure Database for PostgreSQL
+Azure Managed Redis
+Microsoft Fabric
+Azure Databricks
+Linux virtual machines in Azure
+Windows Server on Azure
+Azure Functions
+Azure Virtual Machine Scale Sets
+Azure API Management
+Azure Container Apps
+Azure Kubernetes Service (AKS)
+Azure Kubernetes Fleet Manager
+Azure Container Registry
+Azure Red Hat OpenShift
+Azure Container Instances
+Azure Container Storage
+Azure Arc
+Azure Local
+Microsoft Defender for Cloud
+Azure Monitor
+Microsoft Sentinel
+Azure Migrate
+View all solutions (40+)
+Cloud solutions for small and medium businesses
+Cloud migration and modernization center
+Data analytics for AI
+Azure Databases
+AI apps and agents
+Microsoft Marketplace
+Microsoft Sovereign Cloud
+AI apps and agents
+Responsible AI with Azure
+AI Infrastructure
+Data analytics for AI
+Machine learning operations (MLOps)
+Low-code application development on Azure
+Integration Services
+Serverless computing
+DevOps
+Migration and modernization center
+.NET apps migration
+Databases on Azure
+Linux on Azure
+Oracle on Azure
+SAP on the Microsoft Cloud
+Adaptive cloud
+High-performance computing (HPC)
+Infrastructure as a service (IaaS)
+Resiliency
+Azure Essentials
+Frontier Accelerate for Azure
+FinOps on Azure
+Microsoft Marketplace
+Azure pricing overview
+Create an Azure account
+Free Azure services
+Flexible purchase options
+Pricing calculator
+FinOps on Azure
+Maximize ROI from AI
+Azure savings plans
+Azure reservations
+Azure Hybrid Benefit
+Virtual Machines
+Azure SQL
+Microsoft Foundry
+Microsoft Fabric
+Azure Kubernetes Service (AKS)
+Microsoft Defender for Cloud
+View more
+Software Development Companies
+Microsoft Marketplace
+Find a partner
+Resources for Azure partners
+Get started with Azure
+Customer stories
+Analyst reports, white papers, and e-books
+Videos
+Learn more about cloud computing
+Documentation
+Explore Azure portal
+Developer resources
+Quickstart templates
+Resources for startups
+Developer community
+Students
+Azure for partners
+Blog
+Events and Webinars
+Learn
+Support
+Contact Sales
+Get started with Azure
+Sign in
+Pricing
+Free Azure services
+Explore free Azure services
+Bring your vision to life with free services. These services are free up to the specified monthly amounts. Some are always free to all Azure customers, and some are free for 12 months to new customers only.
+Get started with Azure
+Free service types
+List of free services
+Next steps
+Get started with Azure
+Free service types
+Take advantage of two types of free services
+Free for your first 12 months
+Get free monthly amounts of these services for 12 months from the date you create your Azure account.[*]
+65+ always-free services with an Azure account
+Keep getting free monthly amounts of these services for as long as you have an Azure account.
+List of free services
+Find your free services
+Discover free Azure services to start creating, deploying, and managing apps that will take your business to the next level.
+Beyond free services—explore ways to save on cloud costs with Azure
+Next steps
+Choose the Azure account that’s right for you
+Try Azure free or pay as you go. There’s no upfront commitment—cancel anytime.
+Get started with Azure
+Azure pricing
+See pricing by product or scenario—and discover ways to save, cost management tools, and price match guarantees.
+Learn more
+Pricing calculator
+Estimate your expected monthly costs for using any combination of Azure products.
+Learn more
+Azure for Students
+Get access to free developer tools and $100 credit. No credit card required—all you need is an academic email address.
+Learn more
+[*]
+*12 months free services is available only to new customers who have not previously had an Azure account or received 12 months of free services. It is not currently available to customers who sign up directly for pay as you go in China and India. Customers who try Azure free must move to pay as you go within 30 days to continue receiving 12 months free services.
+Explore Azure Portal
+What is Azure?
+Get started with Azure
+Global infrastructure
+Datacenter regions
+Trust your cloud
+Azure Essentials
+Customer stories
+Products
+Azure pricing
+Free Azure services
+Flexible purchase options
+FinOps on Azure
+Maximize ROI from AI
+Solutions
+Resources for accelerating growth
+Solution architectures
+Support
+Azure demo and live Q&A
+Software Development Companies
+Microsoft Marketplace
+Find a partner
+Documentation
+Blog
+Developer resources
+Students
+Events and Webinars
+Analyst reports, white papers, and e-books
+Videos
+What is cloud computing?
+What is multicloud?
+What is machine learning?
+What is deep learning?
+What is AIaaS?
+What are LLMs?
+What is a container?
+What is RAG?
+English (United States)
+Your Privacy Choices
+Consumer Health Privacy
+Sitemap
+Contact Microsoft
+Privacy
+Manage cookies
+Terms of use
+Trademarks
+Safety & eco
+Recycling
+About our ads

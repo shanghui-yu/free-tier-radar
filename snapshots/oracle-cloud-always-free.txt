@@ -1,0 +1,121 @@
+Oracle Cloud Free Tier | Oracle
+Skip to content
+Accessibility Policy
+Menu
+QUICK LINKS
+Cloud
+Database
+Java
+AI
+SUGGESTED LINKS
+SUGGESTED SEARCHES
+Country
+Back
+Cloud Account
+Sign in to Cloud
+Sign Up for Free Cloud Tier
+Oracle Account
+Sign-In
+Create an Account
+Help
+Sign Out
+Cloud
+Oracle Cloud Free Tier
+Build, test, and deploy applications on Oracle Cloud—for free.
+Start for free
+Sign in to Oracle Cloud
+Here is how Oracle Cloud Free Tier works
+1
+Start with a US$300 cloud credit.*
+You’ll have 30 days to use it to test your applications on all OCI services, in addition to Always Free Services in your Free Tier account.
+2
+At any time during or after the 30-day period,* switch to a Pay As You Go account. Pay only for services that exceed the monthly free amounts from Always Free Services.
+3
+If you do nothing after 30 days, you’ll continue to get Always Free Services in your Free Tier account.
+Oracle Cloud Free Tier
+Get cloud credits and start using Oracle Cloud services.
+Sign up now
+Services available on Oracle Cloud Free Tier
+Featured Product
+Tier Type
+Always Free
+Trial
+Product Category
+Filtered by: No Filters applied Clear all
+Here are some resources to enhance your Oracle Cloud Free Tier experience
+Developer Resource Center
+Discover, learn, and build.
+Create common apps and grow with generative AI. Enjoy unmatched capabilities.
+Learn more about Developer Resource Center
+Oracle Architecture Center
+Design and implement your workloads faster and more efficiently with reference architectures, quick-start guides, and other resources.
+Learn more about Oracle Architecture Center
+Free training and accreditation
+The Oracle Learning Explorer program offers entry-level training courses and accreditation for Oracle's entire product portfolio.
+Learn more about Free training and accreditation
+Frequently asked questions
+Open all Close all
+What is Oracle Cloud Free Tier?
+Oracle Cloud Free Tier allows you to sign up for an Oracle Cloud account which provides a number of Always Free services and a Free Trial with US$300 of free credit to use on all eligible Oracle Cloud Infrastructure services for up to 30 days. The Always Free services are available for an unlimited period of time. The Free Trial services may be used until your US$300 of free credits are consumed or the 30 days has expired, whichever comes first.
+What are Always Free Services?
+Always Free services are part of Oracle Cloud Free Tier. Always Free services are available for an unlimited time. Some limitations apply. As new Always Free services become available, you will automatically be able to use those as well.
+The following services are available as Always Free:
+HeatWave
+AMD-based Compute
+Arm-based Ampere A1 Compute
+Block Volume
+Object Storage
+Archive Storage
+Flexible Load Balancer
+Flexible Network Load Balancer
+Site-to-Site VPN
+Autonomous Data Warehouse
+Autonomous Transaction Processing
+Autonomous JSON Database
+NoSQL Database (Phoenix Region only)
+APEX Application Development
+Resource Manager (Terraform)
+Monitoring
+Notifications
+Logging
+Application Performance Monitoring
+Service Connector Hub
+Vault
+Bastions
+Security Advisor
+Virtual Cloud Networks
+Site-to-Site VPN
+Content Management Starter Edition
+Email Delivery
+Is Oracle Cloud Free Tier available in all countries?
+Oracle Cloud Free Tier is currently available in all regions where commercial Oracle Cloud Infrastructure service is available. See the data regions page for detailed service availability. ** If your first-choice data region isn’t available, please select an adjacent region. If you are unable to find the country or territory you require, please contact Oracle Sales or Cloud Support using the Chat link in the menu bar. The Oracle Sales team can help you sign up for Oracle Cloud Free Tier.
+Who is eligible for Oracle Cloud Free Tier?
+One Oracle Cloud Free Trial or Always Free account is permitted per person. Please note:
+Creating or attempting to create multiple free accounts is prohibited.
+All contact and billing information provided must be accurate, valid, and used with consent for the duration of the account.
+Accounts left idle for 30 days or more may be deemed abandoned and become eligible for suspension or termination.
+Failure to comply with these requirements or the Cloud Services Agreement (PDF) may result in the suspension or termination of your account.
+Why do I need to provide credit or debit card information when I sign up for Oracle Cloud Free Tier?
+To provide free Oracle Cloud accounts to our valued customers, we need to ensure that you are who you say you are. We use your contact information and credit/debit card information for account setup and identity verification. Oracle may periodically check the validity of your card, resulting in a temporary “authorization” hold. These holds are removed by your bank, typically within three to five days, and do not result in actual charges to your account.
+What payment methods does Oracle accept?
+We accept credit cards and debit cards that function like credit cards. We do not accept debit cards with a PIN or virtual, single-use, or prepaid cards.
+What is the advantage of moving to Pay As You Go accounts after the trial?
+You have access to customer support to open tickets and troubleshoot account issues. Pay As You Go accounts are subject to different capacity limits than Always Free accounts. As you move from development and testing to production scenarios, you may need to use resources outside of Always Free limits. You will have access to the latest portfolio of OCI services, such as artificial intelligence, and you only pay for what you use.
+How do I know how much I am going be charged for Pay As You Go services?
+You will only be charged for services that you use that exceeds Always Free. You can find information about costs in the Oracle Cloud Price List and the Oracle cloud cost estimator.
+View all Oracle Cloud Free Tier FAQ
+*Free Tier is generally available in regions where commercial Oracle Cloud Infrastructure service is available See the data regions page for detailed service availability (Exact regions available for Free Tier may differ during signup process). The US$300 cloud credit is available in select countries and valid for up to 30 days. Cloud credits consumption can be subject to discounted rates during the 30-day promotional period.
+** Availability to Free Tier is subject to capacity limits. The capacity limits listed under each service are only estimates and reflect the maximum capacity you can get if you consume your entire credit on one service during the promotional period. The maximum capacity per service you get can be less if you consume multiple services. The list of services and capacity estimates are subject to change. Your credit balance is available to you in the Oracle Cloud Infrastructure Console.
+© 2026 Oracle
+Privacy
+/
+Do Not Sell My Info
+Ad Choices
+Careers
+Subscribe to emails
+Integrity Helpline
+Contact Us
+Facebook
+X
+LinkedIn
+YouTube

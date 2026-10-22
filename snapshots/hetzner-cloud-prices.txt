@@ -1,0 +1,308 @@
+Cloud-hosting provider for developers & teams
+THIS WEBSITE USES COOKIES
+We want you to have the best possible user experience on our website. We use cookies to analyze how visitors like you use our website, so we can make improvements. And we use cookies to make sure that the website functions normally. For more info, see our
+privacy policy. You can edit your cookie settings there at any time.
+Allow all cookies
+Allow necessary cookies
+×
+Choose your location settings
+Language
+Deutsch
+English
+Français
+Español
+Currency
+€ EUR
+$ USD
+Country (VAT)
+All others
+Australia
+Austria
+Belgium
+Bulgaria
+Croatia
+Cyprus
+Czech Republic
+Denmark
+Estonia
+Finland
+France
+Germany
+Greece
+Hungary
+Ireland
+Italy
+Latvia
+Lithuania
+Luxembourg
+Malta
+Netherlands
+Norway
+Poland
+Portugal
+Romania
+Singapore
+Slovakia
+Slovenia
+South Africa
+Spain
+Sweden
+Switzerland
+Ukraine
+United Kingdom
+USA
+Save settings
+Automatically translated by AI. Discrepancies or errors may occur.
+Ask AI
+Console
+Robot
+konsoleH
+Dedicated
+Server Finder
+Find the right server for you
+AX-Line
+AMD based performance
+EX-Line
+Intel based performance
+GPU-Line
+Maximum workloads & ai
+SX-Line
+For large amounts of data
+DX-Line
+Dell server for heavy computing
+Server Auction
+Refurbished dedicated deals
+Server Auction
+Save money and do good for the planet with refurbished servers
+from
+€ 66.70 per month, excl. VAT
+Cloud
+Cloud Overview
+Affordable Cloud Hosting
+Cost-Optimized
+Perfect for test environments
+Regular Performance
+Best price-performance ratio
+General Purpose
+Ideal for business applications
+European Cloud
+Lower costs, more data sovereignty – with Hetzner Cloud
+Storage
+Object Storage
+S3-compatible storage
+Storage Box
+Cheap backup servers
+Sovereignty starts with hosting it yourself
+Start self-hosting with Hetzner
+Managed
+Web & Mail
+Webhosting
+Simple & cheap web hosting
+Domain Check
+Search for domains
+Registration Robot
+Domain registration
+Servers
+Managed Server
+Fully managed servers
+Cloud Storage
+Storage Share
+GDPR-compliant storage
+Need help?
+Find self service guides, technical details and helpful information in our Docs
+Services
+Domain & Security
+DNS Management
+Manage DNS entries and zones
+SSL-Certificate
+For any usecase
+Network
+Load Balancer
+Automatically distributing traffic
+For Business
+Custom Solutions
+Customized IT infrastructure
+Need help?
+Find self service guides, technical details and helpful information in our Docs
+Resources
+New
+Blog
+Inspiration, usecases & insights
+Newsletter
+Product news & updates
+Docs
+Self service and technical docs
+Tutorials
+Guides and how-tos
+Forum
+Community support & discussion
+Status
+System and service status
+API
+Automate via REST API
+Downloads
+Documents and forms
+Current topics
+Engineering
+Inference Experiment
+Engineering
+One-click self-hosting with coolify
+Engineering
+Your own vpn server with wireguard
+We noticed you're browsing from a different part of the world.
+Switch to settings tailored to your location?
+yes
+no
+Cloud
+Affordable Cloud Hosting Services
+The cheap simple cloud solution that your demanding projects deserve. Easy to use, flexible, and secure.
+Create cloud instance
+Benefits of the Hetzner Cloud
+Price calculator
+Calculate cloud costs
+Made in Germany
+GDPR-compliant
+Features
+Networks, API etc.
+Simple to use
+Intuitive one-click apps
+Which Hetzner Cloud Server is right for you?
+Shared Resources
+Currently not available
+Perfect for test environments
+Cost-Optimized
+Extremely cost-effective
+Low CPU usage
+Medium traffic applications
+starting from
+max/mo.
+€ 5.99 per month, excl. VAT
+Explore this plan
+Best price-performance ratio
+Regular Performance
+Inexpensive due to shared resources
+Low to medium CPU usage
+Medium traffic applications
+starting from
+max/mo.
+€ 6.49 per month, excl. VAT
+Explore this plan
+Dedicated Resources
+Optimized for business applications
+General Purpose
+Dedicated vCPUs
+Constantly high CPU usage
+High-traffic applications
+starting from
+max/mo.
+€ 43.49 per month, excl. VAT
+Explore this plan
+Shared Resources
+Currently not available
+Perfect for test environments
+Cost-Optimized
+Extremely cost-effective
+Low CPU usage
+Medium traffic applications
+starting from
+max/mo.
+€ 5.99 per month, excl. VAT
+Explore this plan
+Shared Resources
+Best price-performance ratio
+Regular Performance
+Inexpensive due to shared resources
+Low to medium CPU usage
+Medium traffic applications
+starting from
+max/mo.
+€ 6.49 per month, excl. VAT
+Explore this plan
+Dedicated Resources
+Optimized for business applications
+General Purpose
+Dedicated vCPUs
+Constantly high CPU usage
+High-traffic applications
+starting from
+max/mo.
+€ 43.49 per month, excl. VAT
+Explore this plan
+Shared vs. Dedicated Cloud: Which resources are suitable for your setup?
+Shared cloud plans are perfect for development and testing environments. They are designed for variable usage patterns rather than sustained high workloads. Typical use cases include personal websites and blogs, small databases, or web servers with low to moderate traffic. These plans offer the best price-performance ratio, as hardware resources are shared with “neighbors”.
+Dedicated cloud servers assign dedicated vCPUs to your project, ensuring unshared performance and highly predictable resources. They are well suited for business applications with high production workloads, such as high-traffic websites, large databases, gaming servers, machine learning, or processing large volumes of data.
+The cost check for your cloud server
+Everything you need, included.
+API
+All essential functions for automatic management of the cloud infrastructure are also available via a developer-friendly REST API and a CLI tool.
+Integrations
+Integrations for various programming languages (e.g., Python and Go) and management frameworks (e.g., Ansible, Terraform, or Kubernetes) allow for a high degree of automation and integration of the cloud infrastructure, for example, in CI/CD pipelines.
+Networks
+Networks enable servers to communicate via a private network. They also allow complex network topologies to be created. Typical use cases include operating a Kubernetes cluster or a database that is not publicly accessible.
+Firewalls
+Our stateful firewalls enable easy infrastructure security without additional costs. Unwanted incoming and outgoing data traffic is blocked based on defined rules. Once configured, you can assign them to as many cloud servers as you like.
+Images
+Ubuntu, Debian, Fedora, and many other Linux distributions are available as operating systems. So whether you are looking for a particularly beginner-friendly solution or want to operate long-term, predictable enterprise servers, the right option is available.
+It's so easy to get started
+Your own cloud server in just a few steps
+IT doesn't have to be complicated: order your new server conveniently in the Hetzner Console and start using it in seconds. The management interface is intuitive and clearly laid out. There you can configure all relevant settings and access your server directly.
+Explore Docs to get started
+Save time with one-click apps
+Want to use popular software such as Docker, WordPress, Nextcloud, or GitLab – preferably without the hassle of configuration? We've got you covered: every cloud server comes with free, high-quality one-click apps that are ready to go in just a few minutes. Once installed, the apps are just as easy to use.
+Explore all apps in docs
+Coolify
+Docker CE
+GitLab CE
+Grafana
+Jitsi Meet
+Nextcloud
+Owncast
+PhotoPrism
+Prometheus
+RustDesk
+WireGuard
+Wordpress
+Data traffic in price comparison:
+how to save on traffic
+With Hetzner, you benefit from high inclusive traffic
+Our price comparison shows that while expensive egress traffic at hyperscalers such as AWS, Azure, and Google can quickly drive up total costs, with Hetzner you benefit from generous included traffic and very low prices for additional data transfer. All figures are based on independent data from sparecores.com.
+Create cloud instance
+For me, Hetzner is the best European cloud hoster and offers you everything you need. Super cheap and reliable VPS, load balancer, firewalls and VPNs.
+Manuel Schöbel
+, Digitale Kumpel
+Web Development
+Locations worldwide
+As one of Europe's leading internet service providers, Hetzner is represented in many parts of the world. Our cloud servers are available to you in Germany, Finland, Singapore, and the USA.
+With our own data center parks in Falkenstein, Nuremberg, and Helsinki, we offer reliable infrastructure for projects in Europe. You also benefit from servers in Hillsboro, Oregon, and Ashburn, Virginia, in North America. Since 2024, we have also been represented in Asia and provide cloud instances in Singapore.
+Hetzner thus operates first-class IT environments with low latency across the globe.
+Maximum data security
+As a data center operator and hosting provider headquartered in Germany, data protection is a top priority at Hetzner. Thanks to our strict compliance with the General Data Protection Regulation (GDPR), our customers benefit from the highest security standards. These guarantee both the protection of personal data and legally compliant processing. In addition, our data center parks in Germany and Finland are ISO/IEC 27001 certified and thus meet the requirements of international security standards.
+Made in Germany
+Hosted GDPR compliant
+Our performance promise: 99.9% uptime and 24/7 support
+Our performance promises for professional requirements: An SLA with 99.9% guaranteed uptime and clearly defined credits in the event of a malfunction offers you predictable operational reliability. The new 24/7 support by email ensures that you receive rapid assistance at any time in exceptional cases. In addition, C5 certification according to BSI ensures tested transparency and confirms our high security standards – a key factor for business-critical workloads.
+Subscribe to our Newsletter
+Hetzner
+Company
+Our Customers
+Sustainability
+new
+Blog
+Career
+Pressroom
+Support
+Support Center
+Contact
+Downloads
+Hetzner Docs
+Status
+Legal
+Legal notice
+Data privacy
+System policies
+Terms and conditions
+Digital Services Act
+Abuse form
+© 2026
+Hetzner Online GmbH. All Rights Reserved.
+Prices

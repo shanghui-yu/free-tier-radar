@@ -232,10 +232,10 @@ Amazon SageMaker AI
 Machine learning for every data scientist and developer.
 Learn more
 Learn more about our offers
-Free planStart building on AWS with up to $200 in credits. Get access to over 90 services for up to 6 months as you build and experiment with no charges and no surprise overages.
-Paid planAccess the full range of AWS services with pay-as-you-go pricing. New customers on the Paid plan are also eligible for up to $200 in credits.
-Short-term trialTry selected Paid plan services through limited free trials. Your trial begins when you activate the service, and any eligible credits automatically apply to usage beyond the trial limits.
-Always free30+ AWS services are always free within monthly usage limits on both the Free and Paid plans. If you go beyond these limits or access paid features, credits are automatically applied to cover the costs.
+Free plan Start building on AWS with up to $200 in credits. Get access to over 90 services for up to 6 months as you build and experiment with no charges and no surprise overages.
+Paid plan Access the full range of AWS services with pay-as-you-go pricing. New customers on the Paid plan are also eligible for up to $200 in credits.
+Short-term trial Try selected Paid plan services through limited free trials. Your trial begins when you activate the service, and any eligible credits automatically apply to usage beyond the trial limits.
+Always free 30+ AWS services are always free within monthly usage limits on both the Free and Paid plans. If you go beyond these limits or access paid features, credits are automatically applied to cover the costs.
 Get started
 Getting started
 Create your free AWS account

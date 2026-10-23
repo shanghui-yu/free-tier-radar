@@ -2,23 +2,23 @@
   "oracle-cloud-always-free": {
     "name": "Oracle Cloud Always Free",
     "url": "https://www.oracle.com/cloud/free/",
-    "hash": "1973fa1d70d4ab3654c841b68ec37b56c4d53dfc1bf8f1cc1fdde86fc6a627d4",
-    "chars": 6968,
-    "updated_at": "2026-10-22 06:28 UTC"
+    "hash": "9e372afb4c76d53933c2ada187a28ebd8028b5b4922a49361fec1c12578fec1c",
+    "chars": 6958,
+    "updated_at": "2026-10-23 06:05 UTC"
   },
   "google-cloud-free-tier": {
     "name": "Google Cloud Free Tier",
     "url": "https://cloud.google.com/free/docs/free-cloud-features",
-    "hash": "2509149dbe6125a065b9a9491467f81c3bfe49b021990966ecf18f5ca9cddc2e",
+    "hash": "b232950cbc80d390d2dd0696bba46d5ca4f82e85458ede00cfbc311a9c636463",
     "chars": 28280,
-    "updated_at": "2026-10-22 06:04 UTC"
+    "updated_at": "2026-10-23 06:05 UTC"
   },
   "aws-free-tier": {
     "name": "AWS Free Tier",
     "url": "https://aws.amazon.com/free/",
-    "hash": "f2b6f5cfde2d6385f741edc02fb6ae52170b2f97f8420aad0813ce829d0cdf4c",
-    "chars": 9273,
-    "updated_at": "2026-10-22 06:04 UTC"
+    "hash": "5ca8da7a2f787f291e08fa0165973b768a4a2111167dff6eb95cbfe5d324e087",
+    "chars": 9277,
+    "updated_at": "2026-10-23 06:05 UTC"
   },
   "azure-free-account": {
     "name": "Azure Free Account",
@@ -30,15 +30,15 @@
   "racknerd-specials": {
     "name": "RackNerd Specials",
     "url": "https://www.racknerd.com/specials/",
-    "hash": "db800387c2cd8b9d04cf0e63edf8073bc93b40add25e80115628302cfe7f4587",
+    "hash": "b229071ffa2744cb71abfa7c4f34bb2cdcab723d867e7d84a812ff029955c2b4",
     "chars": 17425,
-    "updated_at": "2026-10-22 06:28 UTC"
+    "updated_at": "2026-10-23 06:05 UTC"
   },
   "hetzner-cloud-prices": {
     "name": "Hetzner Cloud Prices",
     "url": "https://www.hetzner.com/cloud/plans",
-    "hash": "71ed31c747256299c931a1de0ce0a68afd744f9c1dff0aba0707a2116982daa0",
+    "hash": "abea20ce23158cd908baaa4472285c33872fd6adca5510448273a17193892ad6",
     "chars": 10098,
-    "updated_at": "2026-10-22 06:28 UTC"
+    "updated_at": "2026-10-23 06:05 UTC"
   }
 }

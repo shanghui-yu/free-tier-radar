@@ -2,16 +2,16 @@
   "oracle-cloud-always-free": {
     "name": "Oracle Cloud Always Free",
     "url": "https://www.oracle.com/cloud/free/",
-    "hash": "1973fa1d70d4ab3654c841b68ec37b56c4d53dfc1bf8f1cc1fdde86fc6a627d4",
-    "chars": 6968,
-    "updated_at": "2026-10-24 02:42 UTC"
+    "hash": "9e372afb4c76d53933c2ada187a28ebd8028b5b4922a49361fec1c12578fec1c",
+    "chars": 6958,
+    "updated_at": "2026-10-24 05:59 UTC"
   },
   "google-cloud-free-tier": {
     "name": "Google Cloud Free Tier",
     "url": "https://cloud.google.com/free/docs/free-cloud-features",
-    "hash": "b232950cbc80d390d2dd0696bba46d5ca4f82e85458ede00cfbc311a9c636463",
+    "hash": "a59ed765ae3f82d559cac35a0648b74960eeeebf46ceb8a67e08ae1b2f912f88",
     "chars": 28280,
-    "updated_at": "2026-10-23 06:05 UTC"
+    "updated_at": "2026-10-24 05:59 UTC"
   },
   "aws-free-tier": {
     "name": "AWS Free Tier",
@@ -30,9 +30,9 @@
   "racknerd-specials": {
     "name": "RackNerd Specials",
     "url": "https://www.racknerd.com/specials/",
-    "hash": "db187c0594417aacba0ccdd383a992a0aba5c02425be8c4a05103c770bce74c8",
+    "hash": "07540d79d7839a0e7f886d6ca30de7ddcacaa30d6bf3ead2730d7e61e7adcca5",
     "chars": 17425,
-    "updated_at": "2026-10-24 02:42 UTC"
+    "updated_at": "2026-10-24 05:59 UTC"
   },
   "hetzner-cloud-prices": {
     "name": "Hetzner Cloud Prices",

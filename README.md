@@ -56,6 +56,3 @@ Fork 本仓库，打开 Actions 页启用 `free-tier-radar` workflow —— 完�
 
 MIT
 
-## 友链
-
-- [LINUX DO](https://linux.do) — 本项目在 LINUX DO 的介绍帖

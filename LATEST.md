@@ -1,4 +1,4 @@
-# Free Tier Radar — 2026-10-25 06:14 UTC
+# Free Tier Radar — 2026-10-26 06:23 UTC
 
 ## 🔔 2 source(s) changed
 
@@ -12,17 +12,17 @@
  Login history
  Date / time (UTC)
  IP address
--Oct 25, 2026 00:43 (2 hours ago)
-+Oct 25, 2026 04:14 (2 hours ago)
+-Oct 25, 2026 04:14 (2 hours ago)
++Oct 26, 2026 04:23 (2 hours ago)
  203.0.113.88
--Oct 24, 2026 02:43 (1 day ago)
-+Oct 24, 2026 06:14 (1 day ago)
+-Oct 24, 2026 06:14 (1 day ago)
++Oct 25, 2026 06:23 (1 day ago)
  198.51.100.44
--Oct 22, 2026 02:43 (3 days ago)
-+Oct 22, 2026 06:14 (3 days ago)
+-Oct 22, 2026 06:14 (3 days ago)
++Oct 23, 2026 06:23 (3 days ago)
  203.0.113.88
--Oct 18, 2026 02:43 (1 week ago)
-+Oct 18, 2026 06:14 (1 week ago)
+-Oct 18, 2026 06:14 (1 week ago)
++Oct 19, 2026 06:23 (1 week ago)
  192.0.2.17
  Back to overview
  Recognized by Inc. Magazine
@@ -38,8 +38,8 @@
  Server Auction
  Save money and do good for the planet with refurbished servers
  from
--€ 39.70 per month, excl. VAT
-+€ 45.70 per month, excl. VAT
+-€ 45.70 per month, excl. VAT
++€ 47.70 per month, excl. VAT
  Cloud
  Cloud Overview
  Affordable Cloud Hosting

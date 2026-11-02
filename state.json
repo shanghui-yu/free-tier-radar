@@ -30,15 +30,15 @@
   "racknerd-specials": {
     "name": "RackNerd Specials",
     "url": "https://www.racknerd.com/specials/",
-    "hash": "6a045e5d869ff5636b4aab876a4ca867a4b30fac67a1d620aadd642281889406",
-    "chars": 17424,
-    "updated_at": "2026-11-01 07:38 UTC"
+    "hash": "04f03e9df6fdba129ec97617df3353ccd136bdaad1a381e0b8986cf2b7f40c3c",
+    "chars": 17423,
+    "updated_at": "2026-11-02 06:42 UTC"
   },
   "hetzner-cloud-prices": {
     "name": "Hetzner Cloud Prices",
     "url": "https://www.hetzner.com/cloud/plans",
-    "hash": "5b1fb351c232a4f84321b1fc82de2e0593c187963184cffe10f856951494f65d",
+    "hash": "12ec12ad3ae66e7049945425dbdd0a508251545c55cf0fefa36b71f96dfbb0f0",
     "chars": 10098,
-    "updated_at": "2026-11-01 06:42 UTC"
+    "updated_at": "2026-11-02 06:42 UTC"
   }
 }

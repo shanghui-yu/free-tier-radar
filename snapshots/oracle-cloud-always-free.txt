@@ -10,15 +10,13 @@ AI
 SUGGESTED LINKS
 SUGGESTED SEARCHES
 Country
-Back
-Cloud Account
-Sign in to Cloud
-Sign Up for Free Cloud Tier
-Oracle Account
-Sign-In
-Create an Account
+Sign in to your Oracle account
+Create an Oracle account
+Signed in to Oracle (SSO) as:
+Oracle account
 Help
-Sign Out
+Sign out
+Go to the OCI/Cloud console
 Cloud
 Oracle Cloud Free Tier
 Build, test, and deploy applications on Oracle Cloud—for free.

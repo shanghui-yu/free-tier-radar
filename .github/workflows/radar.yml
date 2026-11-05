@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 jobs:
   watch:
@@ -17,6 +18,8 @@ jobs:
         with:
           python-version: "3.12"
       - name: Run radar
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 radar.py
       - name: Commit changes
         run: |

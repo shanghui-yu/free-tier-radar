@@ -39,6 +39,23 @@ Fork 本仓库，打开 Actions 页启用 `free-tier-radar` workflow —— 完�
 配合 GitHub 的 Watch（Releases/All activity）或仓库提交通知，额度政策一变你第一时间知道。
 不需要 VPS，不需要数据库，不需要 API key。
 
+## 变化自动开 Issue / Auto Issue on change ✨ v1.1
+
+一次检查发现有源页面变化时，除了提交新快照和 `LATEST.md`，还会自动开一个
+Issue：标题带当天 UTC 日期和变化源数量（例如 `🔔 2026-11-05: 2 source(s) changed`），
+正文列出每个有变化的源、链接和增减行数摘要。订阅仓库 Issue 通知的人，不用盯
+提交记录也能第一时间收到提醒；无变化时不打扰，什么 Issue 都不开。
+
+When a daily check finds changes, besides committing the new snapshots and
+`LATEST.md`, it opens one Issue: the title carries the UTC date and the number
+of changed sources (e.g. `🔔 2026-11-05: 2 source(s) changed`), and the body
+lists each changed source with its link and an added/removed line summary.
+Subscribe to the repo's Issue notifications and you hear about it without
+watching commits; on quiet days nothing is opened. Still zero dependencies —
+the GitHub API call is plain standard-library `urllib`, and in Actions it runs
+on `secrets.GITHUB_TOKEN` with `issues: write` permission. 本地运行没有
+`GITHUB_TOKEN` 时自动跳过开 Issue，只写报告；传 `--no-issue` 也可强制跳过。
+
 ## 设计原则
 
 - **零依赖**：只用标准库（urllib + html.parser），任何机器 `python3 radar.py` 直接跑。
@@ -47,7 +64,7 @@ Fork 本仓库，打开 Actions 页启用 `free-tier-radar` workflow —— 完�
 
 ## 路线图（欢迎 PR）
 
-- [ ] 变化时自动开 Issue 并 @ 订阅者
+- [x] 变化时自动开 Issue 并 @ 订阅者（v1.1 已实现：订阅 Issue 通知即可收到提醒）
 - [ ] 结构化抽取（价格/核数/内存字段级对比，而非全文 diff）
 - [ ] RSS / Telegram / 邮件推送
 - [ ] 更多源：阿里云、腾讯云轻量活动页、LowEndTalk 特价帖
@@ -55,4 +72,3 @@ Fork 本仓库，打开 Actions 页启用 `free-tier-radar` workflow —— 完�
 ## License
 
 MIT
-

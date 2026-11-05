@@ -6,18 +6,30 @@ Zero dependencies (Python 3.9+ standard library only).
 Usage:
     python3 radar.py            # fetch all sources, compare, write report
     python3 radar.py --seed     # (re)build the baseline snapshots, no report
+    python3 radar.py --no-issue # same as default, but never open an Issue
 
 State lives in state.json + snapshots/<slug>.txt (committed to the repo so
 GitHub Actions runs can diff against the last known version).
+
+Since v1.1, when a run detects changes it also opens one GitHub Issue
+summarising them (title carries the UTC date and the number of changed
+sources), so subscribers get notified without watching commits. Issue
+creation needs GITHUB_TOKEN and GITHUB_REPOSITORY in the environment
+(GitHub Actions provides both; the workflow grants `issues: write`).
+Local runs without a token simply skip the Issue step and still write
+the report. Set RADAR_NO_ISSUE=1 or pass --no-issue to skip it even
+when a token is present.
 """
 from __future__ import annotations
 
 import difflib
 import hashlib
 import json
+import os
 import re
 import sys
 import urllib.request
+import urllib.error
 from datetime import datetime, timezone
 from html.parser import HTMLParser
 from pathlib import Path
@@ -123,7 +135,112 @@ def make_diff(old: str, new: str, name: str, max_lines: int = 120) -> str:
     return "\n".join(diff)
 
 
-def run(seed: bool = False) -> int:
+def summarize_diff(diff: str, max_sample: int = 8) -> dict:
+    """Count added/removed lines in a unified diff and sample them.
+
+    Returns {"added": int, "removed": int, "sample": str} where sample
+    holds up to max_sample added/removed lines (diff headers excluded),
+    so an Issue body stays readable even for a large page change.
+    """
+    added, removed, sample = 0, 0, []
+    for line in diff.splitlines():
+        if line.startswith("+++") or line.startswith("---"):
+            continue
+        if line.startswith("+"):
+            added += 1
+            if len(sample) < max_sample:
+                sample.append(line)
+        elif line.startswith("-"):
+            removed += 1
+            if len(sample) < max_sample:
+                sample.append(line)
+    return {"added": added, "removed": removed, "sample": "\n".join(sample)}
+
+
+def build_issue_title(date_str: str, changes) -> str:
+    """Issue title: UTC date + number of changed sources."""
+    return f"🔔 {date_str}: {len(changes)} source(s) changed"
+
+
+def build_issue_body(date_str: str, changes, max_chars: int = 8000) -> str:
+    """One Issue body listing every changed source with a diff summary."""
+    lines = [
+        f"Free Tier Radar detected changes on {date_str} UTC.",
+        "",
+        f"**{len(changes)} source(s) changed.** Full diffs are in the "
+        "`LATEST.md` report committed with this run.",
+        "",
+    ]
+    for name, url, diff in changes:
+        if diff == "(new source, baseline created)":
+            summary = "new source, baseline created (no previous snapshot)"
+            sample = ""
+        else:
+            s = summarize_diff(diff)
+            summary = f"+{s['added']} / -{s['removed']} lines"
+            sample = s["sample"]
+        lines += [f"### {name}", f"<{url}>", "", summary, ""]
+        if sample:
+            lines += ["```diff", sample, "```", ""]
+    body = "\n".join(lines)
+    if len(body) > max_chars:
+        body = body[:max_chars] + "\n\n... (truncated)"
+    return body
+
+
+def create_github_issue(repo: str, token: str, title: str, body: str) -> str:
+    """Open one Issue via the GitHub REST API (stdlib only).
+
+    Returns the Issue's HTML URL. Raises on HTTP/API errors so the
+    caller can log the failure without failing the whole radar run.
+    """
+    payload = json.dumps({"title": title, "body": body}).encode("utf-8")
+    req = urllib.request.Request(
+        f"https://api.github.com/repos/{repo}/issues",
+        data=payload, method="POST",
+        headers={
+            "Accept": "application/vnd.github+json",
+            "X-GitHub-Api-Version": "2022-11-28",
+            "Content-Type": "application/json",
+            "Authorization": f"Bearer {token}",
+            "User-Agent": UA,
+        },
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            result = json.loads(resp.read().decode("utf-8"))
+    except urllib.error.HTTPError as exc:
+        detail = exc.read().decode("utf-8", errors="ignore")[:300]
+        raise RuntimeError(f"GitHub API {exc.code}: {detail}") from exc
+    return result.get("html_url", "")
+
+
+def open_change_issue(changes, date_str: str, repo=None, token=None,
+                      creator=None):
+    """Open the change-summary Issue, or return None when skipped.
+
+    Skipped (no error) when there are no changes, or when no token/repo
+    is configured. `creator` is an injectable (title, body) -> url
+    callable used by tests and dry runs; by default the real API call
+    runs. Returns the Issue URL, or None when skipped.
+    """
+    if not changes:
+        return None
+    title = build_issue_title(date_str, changes)
+    body = build_issue_body(date_str, changes)
+    if creator is not None:
+        # Injected creator (tests / dry runs) bypasses credentials.
+        return creator(title, body)
+    repo = repo or os.environ.get("GITHUB_REPOSITORY")
+    token = token or os.environ.get("GITHUB_TOKEN")
+    if not repo or not token:
+        print("no GITHUB_TOKEN/GITHUB_REPOSITORY, skipping Issue", file=sys.stderr)
+        return None
+    return create_github_issue(repo, token, title, body)
+
+
+def run(seed: bool = False, no_issue: bool = False,
+        issue_creator=None) -> int:
     sources = load_json(SOURCES_FILE, [])
     if not sources:
         print("no sources configured", file=sys.stderr)
@@ -176,8 +293,19 @@ def run(seed: bool = False) -> int:
         lines += ["", "## Fetch errors", *errors]
     REPORT_FILE.write_text("\n".join(lines) + "\n", encoding="utf-8")
     print("\n".join(lines))
+
+    if not seed and changes and not no_issue \
+            and not os.environ.get("RADAR_NO_ISSUE"):
+        date_str = now.split()[0]
+        try:
+            url = open_change_issue(changes, date_str, creator=issue_creator)
+            if url:
+                print(f"opened Issue: {url}")
+        except Exception as exc:  # Issue failure must not fail the run
+            print(f"warning: failed to open Issue: {exc}", file=sys.stderr)
     return 0
 
 
 if __name__ == "__main__":
-    sys.exit(run(seed="--seed" in sys.argv))
+    sys.exit(run(seed="--seed" in sys.argv,
+                 no_issue="--no-issue" in sys.argv))

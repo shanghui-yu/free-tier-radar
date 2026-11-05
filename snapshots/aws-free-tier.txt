@@ -39,6 +39,7 @@ Security
 Compliance
 Trust Center
 Sustainability
+Our Impact
 Global Infrastructure
 Careers
 Featured Products
@@ -73,13 +74,13 @@ Get production-ready AI that automates, builds, creates, decides, and engages at
 Featured Products
 Get started with one of these featured services or browse allBrowse all products
 Amazon Quick
-AI-powered assistant for work with research, business insights, automation, and no-code app building
+The AI assistant built only for work
 Transform
 Eliminate tech debt with agentic AI to modernize legacy systems and code
 Aurora
 Serverless relational database service for PostgreSQL, MySQL, and DSQL
 Amazon Bedrock
-The end-to-end platform for building generative AI applications and agents
+The trusted platform to run inference and build agents at scale
 Amazon Connect Customer
 AI-native solution for delivering exceptional experiences across customer interactions
 EC2
@@ -206,30 +207,30 @@ Available on both plans
 Amazon RDS
 Managed Relational Database Service for MySQL, PostgreSQL, MariaDB, or SQL Server.
 Learn more
-Databases
-Available on both plans
-Amazon DynamoDB
-Serverless, NoSQL, fully managed database with single-digit millisecond performance at any scale.
-Learn more
 Migration
 Available on both plans
 AWS Transform
 The first agentic AI service to accelerate the transformation of Windows, mainframe, VMware, and more.
+Learn more
+Databases
+Available on both plans
+Amazon DynamoDB
+Serverless, NoSQL, fully managed database with single-digit millisecond performance at any scale.
 Learn more
 Agentic AI
 Paid plan exclusive
 Amazon Bedrock AgentCore
 Build, deploy, and operate highly effective agents securely, at scale using any framework and model – no infrastructure management required.
 Learn more
-AI
-Available on both plans
-Amazon Bedrock
-The easiest way to build and scale generative AI applications with foundation models
-Learn more
-Show 1 more
 AI-ML
+Available on both plans
 Amazon SageMaker AI
 Machine learning for every data scientist and developer.
+Learn more
+Show 1 more
+AI
+Amazon Bedrock
+The easiest way to build and scale generative AI applications with foundation models
 Learn more
 Learn more about our offers
 Free plan Start building on AWS with up to $200 in credits. Get access to over 90 services for up to 6 months as you build and experiment with no charges and no surprise overages.

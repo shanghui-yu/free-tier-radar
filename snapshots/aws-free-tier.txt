@@ -73,7 +73,7 @@ Artificial Intelligence
 Get production-ready AI that automates, builds, creates, decides, and engages at scale
 Featured Products
 Get started with one of these featured services or browse allBrowse all products
-Amazon Quick
+AWS Quick
 The AI assistant built only for work
 Transform
 Eliminate tech debt with agentic AI to modernize legacy systems and code

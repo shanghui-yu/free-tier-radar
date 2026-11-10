@@ -75,7 +75,7 @@ Refurbished dedicated deals
 Server Auction
 Save money and do good for the planet with refurbished servers
 from
-€ 65.70 per month, excl. VAT
+€ 78.70 per month, excl. VAT
 Cloud
 Cloud Overview
 Affordable Cloud Hosting
@@ -185,7 +185,7 @@ Low to medium CPU usage
 Medium traffic applications
 starting from
 max/mo.
-€ 6.49 per month, excl. VAT
+€ 5.49 per month, excl. VAT
 Explore this plan
 Dedicated Resources
 Optimized for business applications
@@ -195,7 +195,7 @@ Constantly high CPU usage
 High-traffic applications
 starting from
 max/mo.
-€ 43.49 per month, excl. VAT
+€ 36.99 per month, excl. VAT
 Explore this plan
 Shared Resources
 Currently not available
@@ -216,7 +216,7 @@ Low to medium CPU usage
 Medium traffic applications
 starting from
 max/mo.
-€ 6.49 per month, excl. VAT
+€ 5.49 per month, excl. VAT
 Explore this plan
 Dedicated Resources
 Optimized for business applications
@@ -226,7 +226,7 @@ Constantly high CPU usage
 High-traffic applications
 starting from
 max/mo.
-€ 43.49 per month, excl. VAT
+€ 36.99 per month, excl. VAT
 Explore this plan
 Shared vs. Dedicated Cloud: Which resources are suitable for your setup?
 Shared cloud plans are perfect for development and testing environments. They are designed for variable usage patterns rather than sustained high workloads. Typical use cases include personal websites and blogs, small databases, or web servers with low to moderate traffic. These plans offer the best price-performance ratio, as hardware resources are shared with “neighbors”.

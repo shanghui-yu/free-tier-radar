@@ -39,6 +39,38 @@ Fork 本仓库，打开 Actions 页启用 `free-tier-radar` workflow —— 完�
 配合 GitHub 的 Watch（Releases/All activity）或仓库提交通知，额度政策一变你第一时间知道。
 不需要 VPS，不需要数据库，不需要 API key。
 
+## 噪音过滤 / Noise filter ✨ v1.2
+
+v1.1 上线后头一周连开 11 个 Issue，核查发现基本全是噪音：RackNerd 评论区时间戳
+每天滚动（`Nov 4, 2026 05:33 (2 hours ago)`），AWS 首页营销文案改写重排
+（Issue #1 的 +14/−13 行里额度数字一个没动）。v1.2 起，页面变了不等于要开
+Issue —— 先过一道噪音过滤：
+
+- **时间戳/日期归一化**：ISO 日期、`Nov 4, 2026 05:33`、`2 hours ago`、
+  `Last updated …` 这类每天自己会变的字符串先抹掉再比较；
+- **只看实质内容**：段落重排不算变化；营销改写只要数字（价格、额度、时长、
+  金额）和资格/限制类措辞都没动，就不触发；
+- **真变化照样报**：价格/数字变了（Hetzner €74.70 → €75.70）会触发；纯文字的
+  资格/条款限制新增也会触发，例如 GCP 的 $300 额度自 2026 年 11 月 16 日起不
+  能再用于 Gemini 平台（Issue #10）—— 过滤看的不只是数字。
+- 被过滤掉的变化不会丢：快照照常更新（第二天不再重复报），`LATEST.md` 里
+  记一笔 `🔇 Noise filtered`，列出被过滤的源和行数。
+
+The first week of v1.1 opened 11 Issues, and nearly all of them were noise:
+RackNerd comment timestamps rolling forward every day, AWS homepage
+marketing rewrites and reordering (Issue #1's +14/−13 lines moved no number
+at all). Since v1.2, a changed page no longer means an Issue — it first
+passes a noise filter: timestamps and relative dates are normalized away,
+paragraph reordering does not count, and a marketing rewrite fires nothing
+as long as the numbers (price, quota, duration, amount) and the
+eligibility/restriction wording are untouched. Real changes still fire: a
+price move (Hetzner €74.70 → €75.70), and a prose-only terms restriction
+such as GCP's "$300 credit can't pay for Gemini … on or after November 16,
+2026" (Issue #10) — the filter looks beyond numbers. Filtered changes are
+not lost: the snapshot still advances (so they are not re-reported the next
+day) and `LATEST.md` records them under `🔇 Noise filtered`. Still zero
+dependencies — the filter is plain standard-library `re`.
+
 ## 变化自动开 Issue / Auto Issue on change ✨ v1.1
 
 一次检查发现有源页面变化时，除了提交新快照和 `LATEST.md`，还会自动开一个
@@ -65,9 +97,21 @@ on `secrets.GITHUB_TOKEN` with `issues: write` permission. 本地运行没有
 ## 路线图（欢迎 PR）
 
 - [x] 变化时自动开 Issue 并 @ 订阅者（v1.1 已实现：订阅 Issue 通知即可收到提醒）
+- [x] 噪音过滤：时间戳、营销改写、段落重排不再误开 Issue（v1.2 已实现）
 - [ ] 结构化抽取（价格/核数/内存字段级对比，而非全文 diff）
 - [ ] RSS / Telegram / 邮件推送
 - [ ] 更多源：阿里云、腾讯云轻量活动页、LowEndTalk 特价帖
+
+## 变更记录 / Changelog
+
+- **v1.2**（2026-11-12）：噪音过滤 —— 时间戳归一化、营销改写与段落重排不再
+  开 Issue；价格/数字变化与资格/条款限制类文字新增照常触发；被过滤的变化记
+  入 `LATEST.md` 的 `🔇 Noise filtered` 一节。Noise filter: timestamps
+  normalized away, marketing rewrites and reordering no longer open Issues;
+  price/number moves and eligibility/terms restrictions still fire.
+- **v1.1**（2026-11-05）：变化自动开 Issue。Auto Issue on change.
+- **v1.0**（2026-10-22）：首版，每日抓取对比、提交 `LATEST.md` 报告。
+  First release: daily fetch, diff, commit `LATEST.md` report.
 
 ## License
 

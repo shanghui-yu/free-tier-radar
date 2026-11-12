@@ -19,6 +19,20 @@ creation needs GITHUB_TOKEN and GITHUB_REPOSITORY in the environment
 Local runs without a token simply skip the Issue step and still write
 the report. Set RADAR_NO_ISSUE=1 or pass --no-issue to skip it even
 when a token is present.
+
+Since v1.2, a raw text change is not enough to open an Issue: the
+change first passes through a noise filter (`is_real_change`). It
+normalizes away timestamps and relative dates (RackNerd comment
+timestamps such as "Nov 4, 2026 05:33 (2 hours ago)"), treats pure
+paragraph reordering as noise, and only treats a change as real when
+the multiset of numbers (prices, quotas, durations, amounts) or the
+set of eligibility/restriction terms moved — so marketing rewrites
+that keep every number and every eligibility line ("The AI assistant
+built only for work") stay quiet, while a price move (€74.70 → €75.70)
+or a new terms restriction ("The $300 credit can't pay for Gemini …
+on or after November 16, 2026") still opens an Issue. Noise-only
+changes still update the snapshot (so they are not re-reported the
+next day) and are listed in the report as filtered noise.
 """
 from __future__ import annotations
 
@@ -30,6 +44,7 @@ import re
 import sys
 import urllib.request
 import urllib.error
+from collections import Counter
 from datetime import datetime, timezone
 from html.parser import HTMLParser
 from pathlib import Path
@@ -108,6 +123,120 @@ def fetch(url: str, timeout: int = 25) -> str:
 def slugify(name: str) -> str:
     slug = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
     return slug or "source"
+
+
+# --- v1.2 noise filter -------------------------------------------------
+# Goal: a page changing must not, by itself, open an Issue. Three kinds
+# of churn proved to be noise in production (Issues #1-#11):
+#   * comment timestamps that advance every run ("Nov 4, 2026 05:33
+#     (2 hours ago)") — RackNerd;
+#   * marketing copy rewrites and paragraph reordering that keep every
+#     number and every eligibility line — AWS Free Tier (Issue #1);
+#   * "Last updated <date>" stamps and feedback-widget JSON blobs.
+# A change is real only when the numbers on the page move (price,
+# quota, duration, amount) or when eligibility / restriction wording
+# moves. That keeps the Hetzner €74.70 -> €75.70 move and the GCP
+# "$300 credit can't pay for Gemini … on or after November 16, 2026"
+# terms addition (Issue #10) firing, while the noise above stays quiet.
+# The comparison is deliberately number/term based instead of line based:
+# rewording "12 months free" as "free for 12 months" keeps the number
+# multiset intact, so it does not fire; reordering lines cannot fire
+# either. Safe direction: when in doubt the filter fires (a number
+# dropped by a rewrite, or a restriction line reworded, still opens an
+# Issue) — a false alarm is cheaper than a missed terms change.
+
+# Date/time strings that churn on their own. Each match is replaced by
+# one placeholder before comparison, so only the surrounding words count.
+TIMESTAMP_PATTERNS = [
+    # ISO dates, optionally with a time: 2026-10-27, 2026-11-10 07:48:13
+    re.compile(r"\b\d{4}-\d{2}-\d{2}(?:[T ]\d{2}:\d{2}(?::\d{2})?)?\b"),
+    # "Nov 4, 2026 05:33" / "November 16, 2026" (with or without a time)
+    re.compile(
+        r"\b(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\.?"
+        r"\s+\d{1,2}(?:st|nd|rd|th)?,?\s+\d{4}"
+        r"(?:\s+\d{1,2}:\d{2}(?::\d{2})?)?\b",
+        re.I,
+    ),
+    # "4 November 2026" / "16 November 2026"
+    re.compile(
+        r"\b\d{1,2}\s+(?:January|February|March|April|May|June|July|August|"
+        r"September|October|November|December)\s+\d{4}\b",
+        re.I,
+    ),
+    # Relative times: (2 hours ago), 1 day ago, 3 weeks ago
+    re.compile(
+        r"\b\d+\s+(?:seconds?|minutes?|hours?|days?|weeks?|months?|years?)"
+        r"\s+ago\b",
+        re.I,
+    ),
+    # Bare clock times left over after the patterns above: 05:33, 23:34:12
+    re.compile(r"\b\d{1,2}:\d{2}(?::\d{2})?\b"),
+]
+
+# Words that mark eligibility / scope / restriction wording. A line (or
+# the page) gaining or losing one of these terms is a terms change, even
+# when no number moves — e.g. the GCP $300/Gemini restriction, which is
+# pure prose. English + Chinese, matched as whole words where the
+# language has word boundaries.
+RESTRICTION_TERMS = [
+    "eligible", "eligibility", "ineligible", "not eligible", "no longer",
+    "cannot", "can't", "can not", "must not", "not available",
+    "not supported", "excluded", "exclusion", "restricted", "restriction",
+    "limited to", "only available", "applies to",
+    "does not apply", "not be used", "cannot be used",
+    "valid until", "expires", "requires", "requirement", "qualify",
+    "qualification", "terms of",
+    "资格", "适用", "限制", "不可", "不再", "仅限", "仅适用于", "有效期",
+    "到期", "排除", "不支持", "不能用于",
+]
+RESTRICTION_RE = re.compile(
+    r"|".join(re.escape(t) for t in RESTRICTION_TERMS), re.I
+)
+
+NUMBER_RE = re.compile(r"\d+(?:[.,]\d+)?%?")
+
+
+def normalize_line(line: str) -> str:
+    """Mask timestamps/dates in one line, collapse whitespace."""
+    for pattern in TIMESTAMP_PATTERNS:
+        line = pattern.sub("<DATE>", line)
+    return re.sub(r"\s+", " ", line).strip()
+
+
+def normalize_text(text: str) -> str:
+    return "\n".join(normalize_line(line) for line in text.splitlines())
+
+
+def numbers_of(text: str):
+    """Multiset of the numbers on a (normalized) page: prices, quotas,
+    durations, amounts. Timestamps are masked first, so a date rolling
+    forward does not count as a number moving."""
+    return Counter(NUMBER_RE.findall(normalize_text(text)))
+
+
+def restriction_terms_of(text: str):
+    """Multiset of eligibility/restriction terms on a (normalized) page."""
+    return Counter(m.lower() for m in RESTRICTION_RE.findall(normalize_text(text)))
+
+
+def is_real_change(old: str, new: str) -> bool:
+    """v1.2 gate: is this raw text change worth opening an Issue for?
+
+    False when the normalized texts are identical (timestamp-only churn),
+    when only the line order changed (paragraph reordering), or when the
+    numbers and the eligibility/restriction terms are all untouched
+    (marketing rewrite). True otherwise.
+    """
+    old_n, new_n = normalize_text(old), normalize_text(new)
+    if old_n == new_n:
+        return False
+    if Counter(old_n.splitlines()) == Counter(new_n.splitlines()):
+        return False  # pure reordering
+    if numbers_of(old) != numbers_of(new):
+        return True
+    if restriction_terms_of(old) != restriction_terms_of(new):
+        return True
+    return False
 
 
 def text_hash(text: str) -> str:
@@ -248,7 +377,7 @@ def run(seed: bool = False, no_issue: bool = False,
     state = load_json(STATE_FILE, {})
     SNAP_DIR.mkdir(exist_ok=True)
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    changes, errors, unchanged = [], [], 0
+    changes, filtered, errors, unchanged = [], [], [], 0
 
     for src in sources:
         name, url = src["name"], src["url"]
@@ -264,7 +393,14 @@ def run(seed: bool = False, no_issue: bool = False,
         if seed or prev.get("hash") != digest:
             if not seed and prev:
                 old_text = snap_path.read_text(encoding="utf-8") if snap_path.exists() else ""
-                changes.append((name, url, make_diff(old_text, text, name)))
+                # v1.2: snapshot/state always advance on a raw change (so
+                # noise is not re-reported tomorrow), but only a real
+                # change joins `changes` and can open an Issue.
+                if is_real_change(old_text, text):
+                    changes.append((name, url, make_diff(old_text, text, name)))
+                else:
+                    s = summarize_diff(make_diff(old_text, text, name))
+                    filtered.append((name, url, s["added"], s["removed"]))
             elif not seed:
                 changes.append((name, url, "(new source, baseline created)"))
             snap_path.write_text(text, encoding="utf-8")
@@ -288,6 +424,11 @@ def run(seed: bool = False, no_issue: bool = False,
             lines += ["", f"### {name}", f"<{url}>", "", "```diff", diff, "```"]
     else:
         lines.append("## ✅ No changes detected")
+    if filtered:
+        lines += ["", f"## 🔇 Noise filtered ({len(filtered)} source(s), no Issue opened)"]
+        for name, url, added, removed in filtered:
+            lines.append(f"- **{name}**: +{added} / -{removed} lines "
+                         f"(timestamps / marketing rewrite / reordering only)")
     lines += ["", f"Unchanged: {unchanged} · Errors: {len(errors)}"]
     if errors:
         lines += ["", "## Fetch errors", *errors]

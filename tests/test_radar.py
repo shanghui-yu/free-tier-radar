@@ -11,7 +11,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 import radar  # noqa: E402
 from radar import (  # noqa: E402
     build_issue_body, build_issue_title, create_github_issue, extract_text,
-    make_diff, open_change_issue, slugify, summarize_diff, text_hash,
+    is_real_change, make_diff, open_change_issue, slugify, summarize_diff,
+    text_hash,
 )
 
 FIXTURE = """
@@ -191,6 +192,141 @@ class TestRunOpensIssueOnChange(unittest.TestCase):
             radar.run(no_issue=True,
                       issue_creator=lambda t, b: opened.append((t, b)) or "url")
         self.assertEqual(opened, [])
+
+
+class TestNoiseFilter(unittest.TestCase):
+    """v1.2: timestamp/marketing churn stays quiet, real changes fire.
+
+    Fixtures are verbatim lines from production Issues #1/#10/#11.
+    """
+
+    # RackNerd comment timestamps, Issue #1 (+4/-4, pure noise).
+    RACKNERD_OLD = (
+        "RackNerd | VPS Specials\n"
+        "Nov 4, 2026 05:33 (2 hours ago)\n"
+        "Nov 3, 2026 07:33 (1 day ago)\n"
+        "Nov 1, 2026 07:33 (3 days ago)\n"
+        "Oct 28, 2026 07:33 (1 week ago)\n"
+        "2GB RAM KVM VPS $12.99 per year"
+    )
+    RACKNERD_NEW = (
+        "RackNerd | VPS Specials\n"
+        "Nov 4, 2026 23:34 (2 hours ago)\n"
+        "Nov 4, 2026 01:34 (1 day ago)\n"
+        "Nov 2, 2026 01:34 (3 days ago)\n"
+        "Oct 29, 2026 01:34 (1 week ago)\n"
+        "2GB RAM KVM VPS $12.99 per year"
+    )
+
+    # AWS marketing rewrite, Issue #1 (+14/-13, no number/term moved).
+    AWS_OLD = (
+        "Free Cloud Computing Services - AWS Free Tier\n"
+        "AI-powered assistant for work with research, business insights, automation, and no-code app building\n"
+        "The end-to-end platform for building generative AI applications and agents\n"
+        "12 months free\n"
+        "750 hours of EC2 per month"
+    )
+    AWS_NEW = (
+        "Free Cloud Computing Services - AWS Free Tier\n"
+        "Our Impact\n"
+        "The AI assistant built only for work\n"
+        "The trusted platform to run inference and build agents at scale\n"
+        "Migration\n"
+        "Available on both plans\n"
+        "12 months free\n"
+        "750 hours of EC2 per month"
+    )
+
+    # GCP $300/Gemini terms addition, Issue #10 (real change, no price move).
+    GCP_OLD = (
+        "Free Google Cloud features and trial offer\n"
+        "Get $300 in free credits to explore Google Cloud\n"
+        "Last updated 2026-10-27 UTC."
+    )
+    GCP_NEW = (
+        "Free Google Cloud features and trial offer\n"
+        "Get $300 in free credits to explore Google Cloud\n"
+        "The $300 credit can't pay for Gemini\n"
+        "platform (formerly known as\n"
+        "Gemini Enterprise Agent Platform, Vertex AI)\n"
+        "services if you sign up for a free trial or upgrade to a paid\n"
+        "account on or after November 16, 2026.\n"
+        "Last updated 2026-11-10 UTC."
+    )
+
+    def test_timestamp_only_change_is_noise(self):
+        self.assertFalse(is_real_change(self.RACKNERD_OLD, self.RACKNERD_NEW))
+
+    def test_marketing_rewrite_and_reorder_is_noise(self):
+        # Reworded marketing lines, plus the same lines in a new order.
+        reordered = "\n".join([
+            "750 hours of EC2 per month",
+            "Free Cloud Computing Services - AWS Free Tier",
+            "The trusted platform to run inference and build agents at scale",
+            "Our Impact",
+            "The AI assistant built only for work",
+            "12 months free",
+            "Migration",
+            "Available on both plans",
+        ])
+        self.assertFalse(is_real_change(self.AWS_OLD, self.AWS_NEW))
+        self.assertFalse(is_real_change(self.AWS_OLD, reordered))
+
+    def test_price_change_fires(self):
+        old = "Hetzner Cloud Prices\n€ 74.70 per month, excl. VAT"
+        new = "Hetzner Cloud Prices\n€ 75.70 per month, excl. VAT"
+        self.assertTrue(is_real_change(old, new))
+
+    def test_quota_number_change_fires(self):
+        self.assertTrue(is_real_change(
+            "750 hours of EC2 per month", "500 hours of EC2 per month"))
+
+    def test_gcp_terms_restriction_fires(self):
+        # Pure-prose eligibility restriction: no price/number moved that
+        # would fire on its own (the $300 appears on both sides), yet
+        # the new "can't pay for Gemini … on or after November 16, 2026"
+        # lines must still open an Issue.
+        self.assertTrue(is_real_change(self.GCP_OLD, self.GCP_NEW))
+
+    def test_last_updated_date_bump_is_noise(self):
+        old = "Docs\nLast updated 2026-10-27 UTC.\nFree tier"
+        new = "Docs\nLast updated 2026-11-10 UTC.\nFree tier"
+        self.assertFalse(is_real_change(old, new))
+
+    def test_identical_text_is_noise(self):
+        self.assertFalse(is_real_change("same\ntext", "same\ntext"))
+
+
+class TestRunNoiseFilter(TestRunOpensIssueOnChange):
+    """End-to-end: noise updates the snapshot but opens no Issue."""
+
+    def test_timestamp_only_change_updates_snapshot_without_issue(self):
+        pages = {"https://example.test/alpha":
+                 "<html><body><p>Nov 4, 2026 05:33 (2 hours ago)</p>"
+                 "<p>price $5</p></body></html>",
+                 "https://example.test/beta": "<html><body><p>same</p></body></html>"}
+        opened = []
+        with mock.patch.object(radar, "fetch", side_effect=lambda u: pages[u]):
+            self.assertEqual(radar.run(issue_creator=lambda t, b: opened.append((t, b)) or "url"), 0)
+        # Snapshot advanced (raw text changed) but no Issue was opened…
+        self.assertEqual(opened, [])
+        report = (self.root / "LATEST.md").read_text()
+        self.assertIn("Noise filtered", report)
+        self.assertIn("Alpha", report)
+        # …and a second identical run stays quiet too.
+        with mock.patch.object(radar, "fetch", side_effect=lambda u: pages[u]):
+            self.assertEqual(radar.run(issue_creator=lambda t, b: opened.append((t, b)) or "url"), 0)
+        self.assertEqual(opened, [])
+
+    def test_price_change_still_opens_issue(self):
+        pages = {"https://example.test/alpha":
+                 "<html><body><p>price $6</p></body></html>",
+                 "https://example.test/beta": "<html><body><p>same</p></body></html>"}
+        opened = []
+        with mock.patch.object(radar, "fetch", side_effect=lambda u: pages[u]):
+            self.assertEqual(radar.run(issue_creator=lambda t, b: opened.append((t, b)) or "url"), 0)
+        self.assertEqual(len(opened), 1)
+        self.assertIn("Alpha", opened[0][1])
 
 
 if __name__ == "__main__":

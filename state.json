@@ -16,9 +16,9 @@
   "aws-free-tier": {
     "name": "AWS Free Tier",
     "url": "https://aws.amazon.com/free/",
-    "hash": "1891c2977d28ebf628372efa63b1f22b847b09b8a712b28a308e6c084c3f20fb",
-    "chars": 9210,
-    "updated_at": "2026-11-06 06:42 UTC"
+    "hash": "2bd0036513bea60eb1a943b6464234bba69f2e6151f4128e616db5ef0daae660",
+    "chars": 9209,
+    "updated_at": "2026-11-13 08:07 UTC"
   },
   "azure-free-account": {
     "name": "Azure Free Account",
@@ -30,9 +30,9 @@
   "racknerd-specials": {
     "name": "RackNerd Specials",
     "url": "https://www.racknerd.com/specials/",
-    "hash": "433b8e06ccb2215e1710ec6c88f57a195dd690c5c48bc7d35752176cda9b3837",
-    "chars": 17423,
-    "updated_at": "2026-11-12 08:25 UTC"
+    "hash": "603348c1b76e657c0f44730ebccd347f153e715f1117485060d2f36530db56d2",
+    "chars": 17424,
+    "updated_at": "2026-11-13 08:07 UTC"
   },
   "hetzner-cloud-prices": {
     "name": "Hetzner Cloud Prices",

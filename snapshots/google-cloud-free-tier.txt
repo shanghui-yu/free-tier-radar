@@ -132,7 +132,6 @@ product-specific free trials.
 You will only be billed for usage that exceeds those limits.
 Get started for free
 Start your proof of concept with $300 in free credit
-Develop with our latest Generative AI models and tools.
 Get free usage of 20+ popular products, including Compute Engine and AI APIs.
 No automatic charges, no commitment.
 View free product offers
@@ -205,7 +204,6 @@ If you encounter issues during the verification process, then
 contact Cloud Billing support.
 Get started for free
 Start your proof of concept with $300 in free credit
-Develop with our latest Generative AI models and tools.
 Get free usage of 20+ popular products, including Compute Engine and AI APIs.
 No automatic charges, no commitment.
 View free product offers
@@ -373,7 +371,6 @@ For full access to Google Cloud,
 upgrade to a Paid billing account.
 Get started for free
 Start your proof of concept with $300 in free credit
-Develop with our latest Generative AI models and tools.
 Get free usage of 20+ popular products, including Compute Engine and AI APIs.
 No automatic charges, no commitment.
 View free product offers
@@ -761,9 +758,9 @@ of knowledgeable Google Cloud enthusiasts.
 Back to FAQ
 Send feedback
 Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
-Last updated 2026-11-10 UTC.
+Last updated 2026-11-13 UTC.
 Need to tell us more?
-[[["Easy to understand","easyToUnderstand","thumb-up"],["Solved my problem","solvedMyProblem","thumb-up"],["Other","otherUp","thumb-up"]],[["Hard to understand","hardToUnderstand","thumb-down"],["Incorrect information or sample code","incorrectInformationOrSampleCode","thumb-down"],["Missing the information/samples I need","missingTheInformationSamplesINeed","thumb-down"],["Other","otherDown","thumb-down"]],["Last updated 2026-11-10 UTC."],[],[]]
+[[["Easy to understand","easyToUnderstand","thumb-up"],["Solved my problem","solvedMyProblem","thumb-up"],["Other","otherUp","thumb-up"]],[["Hard to understand","hardToUnderstand","thumb-down"],["Incorrect information or sample code","incorrectInformationOrSampleCode","thumb-down"],["Missing the information/samples I need","missingTheInformationSamplesINeed","thumb-down"],["Other","otherDown","thumb-down"]],["Last updated 2026-11-13 UTC."],[],[]]
 Products and pricing
 See all products
 Google Cloud pricing

@@ -1,4 +1,4 @@
-# Free Tier Radar — 2026-11-16 08:03 UTC
+# Free Tier Radar — 2026-11-17 08:42 UTC
 
 ## 🔔 1 source(s) changed
 
@@ -12,8 +12,8 @@
  Server Auction
  Save money and do good for the planet with refurbished servers
  from
--€ 78.70 per month, excl. VAT
-+€ 37.70 per month, excl. VAT
+-€ 37.70 per month, excl. VAT
++€ 78.70 per month, excl. VAT
  Cloud
  Cloud Overview
  Affordable Cloud Hosting

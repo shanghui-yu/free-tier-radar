@@ -1,25 +1,8 @@
-# Free Tier Radar — 2026-11-17 08:42 UTC
+# Free Tier Radar — 2026-11-17 09:18 UTC
 
-## 🔔 1 source(s) changed
-
-### Hetzner Cloud Prices
-<https://www.hetzner.com/cloud/plans>
-
-```diff
---- Hetzner Cloud Prices (before)
-+++ Hetzner Cloud Prices (now)
-@@ -75,7 +75,7 @@
- Server Auction
- Save money and do good for the planet with refurbished servers
- from
--€ 37.70 per month, excl. VAT
-+€ 78.70 per month, excl. VAT
- Cloud
- Cloud Overview
- Affordable Cloud Hosting
-```
+## ✅ No changes detected
 
 ## 🔇 Noise filtered (1 source(s), no Issue opened)
 - **RackNerd Specials**: +4 / -4 lines (timestamps / marketing rewrite / reordering only)
 
-Unchanged: 4 · Errors: 0
+Unchanged: 5 · Errors: 0

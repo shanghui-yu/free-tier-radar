@@ -47,7 +47,7 @@ Azure Local
 Microsoft Defender for Cloud
 Azure Monitor
 Microsoft Sentinel
-Azure Migrate
+Azure Catalyst
 View all solutions (40+)
 Cloud solutions for small and medium businesses
 Cloud migration and modernization center

@@ -1,75 +1,29 @@
-RackNerd | VPS Specials
-CURRENT PROMOTIONS: Deals that everyone is opting for. WHILE AVAILABLE. GET YOURS.
-REVEAL DEALS >
-DISCOUNT
-Save 15% off for life on all dedicated servers using promo code: 15OFFDEDI
-[email protected]
-MY ACCOUNT
-Home
-Hosting
-Shared Hosting
-Reseller Hosting
-VPS
-KVM VPS
-AI VPS
-AMD Ryzen VPS
-Windows VPS
-Dedicated Servers
-Hybrid Servers
-Bare Metal Servers
-AMD Ryzen Dedicated Servers
-10Gbps Unmetered Servers
-20Gbps Unmetered Servers
-40Gbps Unmetered Servers
-SEO Dedicated Servers
-Colocation
-Partners
-Affiliates
-Become a Reseller
-Datacenters
-Los Angeles Datacenter
-San Jose Datacenter
-Utah Datacenter
-Chicago Datacenter
-Dallas Datacenter
-New York Datacenter
-Atlanta Datacenter
-Ashburn Datacenter
-Toronto Datacenter
---> View More Datacenters <--
-About Us
-About RackNerd
-ctrl Control Panel
-Blog
-Contact Us
-RackNerd
-New VPS specials
-Pick your VPS deal.
-High-performance KVM VPS, perfect for self-host and AI workloads! Every plan includes full root access, one-click apps, and access to ctrl - RackNerd’s modern control panel. RackNerd is trusted by hundreds of thousands of customers globally, and recognized on the Inc. 5000.
-View plans and pricing
-Try the ctrl demo
-RackNerd VPS specials
-1 GB
-1 vCPU · 20 GB SSD
-$21.99/yr
-2 GB
-2 vCPU · 35 GB SSD Popular
-$35.99/yr
-4 GB
-3 vCPU · 60 GB SSD
-$59.99/yr
-6 GB
-6 vCPU · 100 GB SSD
-$89.99/yr
-8 GB
-7 vCPU · 150 GB SSD
-$119.99/yr
-Deploy 2 GB now
-Compare full specs
-Instantly provisioned. Just pick.
+Black Friday 2026 Hosting Deals | RackNerd
+Skip to Black Friday deals
+Return to main site
+RackNerd Black Friday Event 2026
+Black Friday.
+Great hosting. A better deal.
+Complete your order within:
+00Days
+:
+00Minutes
+:
+37Seconds
+View deals
+Choose your hostingSelect a category to explore the deals
+VPSRoot access & flexibility
+From $15.98/year
+Shared HostingFor your website
+From $9.49/year
+Reseller HostingFor your hosting business
+From $29.88/year
+Dedicated ServersDedicated hardware
+From $64/month
+Black Friday VPS Deals
 Launch a KVM VPS and choose from Ubuntu, Debian, AlmaLinux, and more! Full root SSH access included, and custom ISO installs are also available upon request via a support ticket.
 1 GB KVM VPS
-$21.99/year
+$15.98/year
 1 vCPU Core
 20 GB SSD Storage
 1 GB RAM
@@ -77,60 +31,65 @@ $21.99/year
 1Gbps Network Port
 Full Root Access
 1 IPv4 Address
-KVM/ctrl Panel
+Free Clientexec License
+KVM / ctrl Panel
 Deploy in Multiple Locations
-Order now
-Most popular
-2 GB KVM VPS
-$35.99/year
+Order Now
+2.5 GB KVM VPS
+$27.98/year
 2 vCPU Cores
-35 GB SSD Storage
-2 GB RAM
-5 TB Monthly Transfer
+30 GB SSD Storage
+2.5 GB RAM
+6 TB Monthly Transfer
 1Gbps Network Port
 Full Root Access
 1 IPv4 Address
-KVM/ctrl Panel
+Free Clientexec License
+KVM / ctrl Panel
 Deploy in Multiple Locations
-Order now
+Order Now
 4 GB KVM VPS
-$59.99/year
-3 vCPU Cores
+Most popular
+$47.98/year
+4 vCPU Cores
 60 GB SSD Storage
 4 GB RAM
-7 TB Monthly Transfer
+10 TB Monthly Transfer
 1Gbps Network Port
 Full Root Access
 1 IPv4 Address
-KVM/ctrl Panel
+Free Clientexec License
+KVM / ctrl Panel
 Deploy in Multiple Locations
-Order now
+Order Now
 6 GB KVM VPS
-$89.99/year
+$74.98/year
 6 vCPU Cores
-100 GB SSD Storage
+85 GB SSD Storage
 6 GB RAM
-12 TB Monthly Transfer
+15 TB Monthly Transfer
 1Gbps Network Port
 Full Root Access
 1 IPv4 Address
-KVM/ctrl Panel
+Free Clientexec License
+KVM / ctrl Panel
 Deploy in Multiple Locations
-Order now
+Order Now
 8 GB KVM VPS
-$119.99/year
-7 vCPU Cores
-150 GB SSD Storage
+$94.98/year
+6 vCPU Cores
+140 GB SSD Storage
 8 GB RAM
 20 TB Monthly Transfer
 1Gbps Network Port
 Full Root Access
 1 IPv4 Address
-KVM/ctrl Panel
+Free Clientexec License
+KVM / ctrl Panel
 Deploy in Multiple Locations
-Order now
+Order Now
 Why choose RackNerd?
-Reliable, high-performance KVM VPS backed by real support. Order with a provider that has a proven track record and is here to stay.
+Reliable, high-performance KVM VPS backed by real support. Build with a provider that has a proven track record and is here to stay.
 Instant setup
 Your VPS is provisioned right after payment, so you can get online in minutes.
 Multiple locations
@@ -144,7 +103,7 @@ Our support team is available around the clock when you need a hand.
 1Gbps network
 Every special includes a 1Gbps port for fast, reliable connectivity.
 One-click apps
-Install AdminBolt, OpenClaw, AnythingLLM, Ollama, LibreChat, and more from ctrl in a single click.
+Install AdminBolt, OpenClaw, AnythingLLM, Ollama, LibreChat, and more from ctrl.
 ctrl Network Firewall
 Filter inbound traffic in front of your VPS, with rules you manage right from ctrl.
 Interactive ctrl demo
@@ -419,17 +378,24 @@ Disable two-factor
 Login history
 Date / time (UTC)
 IP address
-Nov 19, 2026 06:52 (2 hours ago)
+Nov 20, 2026 06:39 (2 hours ago)
 203.0.113.88
-Nov 18, 2026 08:52 (1 day ago)
+Nov 19, 2026 08:39 (1 day ago)
 198.51.100.44
-Nov 16, 2026 08:52 (3 days ago)
+Nov 17, 2026 08:39 (3 days ago)
 203.0.113.88
-Nov 12, 2026 08:52 (1 week ago)
+Nov 13, 2026 08:39 (1 week ago)
 192.0.2.17
 Back to overview
+Featured One-Click App
+Launch AdminBolt from ctrl’s One-Click Apps
+AdminBolt is a modern alternative to cPanel/WHM and one of 13 apps in ctrl’s catalog. Install it on a fresh VPS to host your own websites or offer custom hosting packages to customers. Each customer gets their own control panel to manage domains, email, and databases.
+Preview ctrl's One Click Apps
+Preview AdminBolt Demo
+30-day free trial · 2 vCPUs and 2 GB RAM minimum
 Recognized by Inc. Magazine
-RackNerd is proud to be recognized among America’s fastest-growing private companies, including the Inc. 5000, Inc. Regionals Pacific, and the 2026 Inc. 5000 national list.
+RackNerd is proud to be recognized among America’s fastest-growing private companies,
+including the Inc. 5000, Inc. Regionals Pacific, and the 2026 Inc. 5000 national list.
 2026
 #3693
 Inc. 5000
@@ -458,25 +424,467 @@ View our Inc. profile
 Frequently asked questions
 More questions about a RackNerd VPS special? Contact us.
 Can I renew a RackNerd VPS special at the same rate?
-Yes. These RackNerd VPS specials are lifetime recurring. You can renew at the same rate for as long as you decide to keep the service.
+Yes. These RackNerd VPS specials are lifetime recurring. You can renew at the same rate for as long as you keep the service.
+Do RackNerd plans include a free Clientexec license?
+Yes. RackNerd includes a free Clientexec license with any active VPS, shared hosting, reseller hosting, or dedicated server plan. If you buy directly from Clientexec, the regular price for a branded license is $16.95/month. Open a support ticket to request yours.
+Clientexec combines billing, a help desk, and customer relationship management (CRM). If you sell hosting, you can automate account setup with a supported control panel and invoice customers at renewal. You can also bill for a one-time design project or a monthly maintenance plan and keep each client’s payments and support tickets in one place.
 What is RackNerd ctrl?
-ctrl is RackNerd’s modern control panel, included with every RackNerd VPS special. After your VPS deploys, ctrl is where you manage it: reboot, reinstall the operating system, open an out-of-band HTML5 VNC console, install one-click apps, set inbound rules with the ctrl Network Firewall, reset the root password, and upgrade. The console is there for troubleshooting, recovery, and custom OS installations.
+ctrl is RackNerd’s VPS control panel. Reboot your VPS, reinstall its operating system, access the console, manage network firewall rules, and install one-click apps from one place. Try the interactive demo above.
 What if I want to deploy something that is not in the ctrl one-click apps catalog?
-We’re always looking to add more popular options to the one-click catalog in ctrl. If the app you want is not listed yet, a RackNerd VPS special still leaves you in control. You get full root SSH access, so you can install and configure whatever stack you need.
+You have full root access. You can install your own applications, packages, and services over SSH, subject to the resources of your plan and our acceptable use policy.
 Can I self-host apps on a RackNerd VPS special?
-Yes. A RackNerd VPS special is a KVM VPS made for self-hosting and AI workloads. Every plan includes full root access, one-click apps in ctrl, and a 1Gbps port. Install AdminBolt, OpenClaw, Hermes Agent, AnythingLLM, Ollama, LibreChat, n8n, and more from ctrl, or bring your own software over SSH.
+Yes. Host your own applications, websites, databases, and automation tools. Choose a plan with enough memory, storage, and CPU for the software you want to run.
 Can I run Docker, WordPress, or my own stack on a RackNerd VPS special?
-Yes. On a RackNerd VPS special you can run Docker with Portainer in one click from ctrl, or install Docker yourself over SSH. WordPress fits AdminBolt, CyberPanel, or CloudPanel, which are also one-click apps, or you can set it up on your own. Full root access means a custom stack is always an option.
+Yes. KVM virtualization and full root access let you install Docker, WordPress, and your preferred software stack. You are responsible for configuring and maintaining your software.
 Which operating systems can I install on a RackNerd VPS special?
-When you order a RackNerd VPS special, you can choose CentOS, Rocky Linux, AlmaLinux, Fedora, Debian, or Ubuntu. Custom ISO installs are available on request through a support ticket. Later, ctrl can reinstall the OS, and the HTML5 VNC console is there if you want to install from your own media.
+Choose from the available Linux templates in ctrl, including Ubuntu, Debian, AlmaLinux, and Rocky Linux. The available templates are shown in the reinstall menu.
 Do RackNerd VPS specials include full root access and an IPv4 address?
-Yes. Every RackNerd VPS special includes full root access, 1 IPv4 address, SSD storage, and a 1Gbps network port. You manage the server from ctrl or over SSH.
+Yes. Every VPS special shown here includes full root access and one dedicated IPv4 address.
 Where can I deploy a RackNerd VPS special, and how fast is it ready?
-A RackNerd VPS special is provisioned right after payment, so you can get online in minutes. You can deploy in multiple RackNerd locations and pick a datacenter close to your users.
+Choose from the available datacenter locations for your plan at checkout. VPS services are automatically provisioned after successful payment.
 Can I run AI tools like OpenClaw, Hermes Agent, or n8n on a RackNerd VPS special?
-Yes. OpenClaw, Hermes Agent, AnythingLLM, Ollama, LibreChat, n8n, and Coolify are one-click apps in ctrl on a RackNerd VPS special. OpenClaw wants at least 8 GB of RAM. Hermes Agent, AnythingLLM, Ollama, and LibreChat want at least 4 GB. n8n or Coolify are comfortable from 2 GB. After the VPS deploys, open One-Click Apps in ctrl, select the app, and credentials show up in-panel when it’s ready.
+Yes. ctrl includes one-click apps for AI tools and automation. Check each app’s requirements and choose a VPS with enough resources. Some apps also require a separate API key or subscription.
 Is a RackNerd VPS special managed?
-A RackNerd VPS special is an unmanaged KVM VPS. You get full root access, and ctrl covers the day-to-day work: power, reinstall, console, one-click apps, and the ctrl Network Firewall. If you need a hand with the platform, RackNerd support is available 24/7.
+These VPS plans are self-managed. You control the operating system and your applications; RackNerd maintains the underlying infrastructure and provides 24/7 support.
+Black Friday Shared Hosting Deals
+Run your sites on LiteSpeed with free website migration and JetBackup daily backups.
+Shared – 35 GB
+$9.49/year
+5
+Hosted Domains
+SSD Storage35 GB
+Monthly Transfer5 TB
+AdminBolt Control Panel
+Use the AI Assistant to manage email, DNS, and databases.
+Free Website Migration
+Free Daily Backups
+Free SSL Certificates
+LiteSpeed Web Server
+Softaculous Installer
+CloudLinux OS
+Dallas, USA Datacenter Location Order Now
+Shared – 90 GB
+Featured plan
+$21.99/year
+Unlimited
+Hosted Domains
+SSD Storage90 GB
+Monthly Transfer15 TB
+AdminBolt Control Panel
+Use the AI Assistant to manage email, DNS, and databases.
+Free Website Migration
+Free Daily Backups
+Free SSL Certificates
+LiteSpeed Web Server
+Softaculous Installer
+CloudLinux OS
+Dallas, USA Datacenter Location Order Now
+Shared – 200 GB
+$49.88/year
+Unlimited
+Hosted Domains
+SSD Storage200 GB
+Monthly Transfer40 TB
+AdminBolt Control Panel
+Use the AI Assistant to manage email, DNS, and databases.
+Free Website Migration
+Free Daily Backups
+Free SSL Certificates
+LiteSpeed Web Server
+Softaculous Installer
+CloudLinux OS
+Dallas, USA Datacenter Location Order Now
+CloudLinux LVE limits
+All shared plans use these limits. The websites and domains in your AdminBolt account share one set of resources.
+CloudLinux LVE limits per hosting account
+ResourcePer-account limit
+CPU
+100% of one core
+Physical memory (RAM)
+2 GB
+Disk throughput (I/O)
+80 MB/s
+Disk operations (IOPS)
+15,000 per second
+Entry processes (EP / EPROC)
+200
+Processes and threads (NPROC)
+220
+Files and directories (inodes)
+No limit
+Your plan’s disk space allowance still applies to the files you store.
+Your website. Ready for what’s next.
+Everything you need to launch and grow your website, with friendly support when you need it.
+Simple with AdminBolt
+Manage domains, email, files, and databases in one modern control panel.
+LiteSpeed Performance
+Fast website delivery with LiteSpeed Web Server and LSCache.
+AI Assistant
+Ask in plain language about usage, email, DNS, and databases.
+WordPress & More
+Install WordPress and other popular applications with Softaculous.
+Free Daily Backups
+Daily backups powered by JetBackup, with a 30-day retention period and restore tools in your control panel.
+Free Website Migration
+Our team can help move your website from your previous provider.
+Dallas, USA
+Datacenter location for every AdminBolt shared hosting plan.
+24/7 Support
+Real people, ready to help with your hosting around the clock.
+Powered by
+Big ideas. Simple website management.
+A modern control panel, easy app installs, and AI assistance for everyday hosting tasks.
+Control Panel
+AdminBolt
+Your hosting, at a glance
+DomainsEmailFilesDatabasesSSLDNS
+Manage domains, email, files, and databases in one place.
+WordPress & Apps
+Softaculous
+Softaculous app installer
+W
+WordPressBuild your next website
+InstallOverviewAll apps
+Install WordPress and other popular apps with Softaculous.
+AI Assistant
+AdminBolt
+AI assistant
+Show my account usage
+Disk space, transfer, and domains. Just ask.
+EmailDNSDatabases
+Manage email, DNS, and databases in plain language with AdminBolt’s AI assistant.
+Spend more time building your website. We’ll take care of the hosting.
+Choose your shared plan
+Recognized by Inc. Magazine
+RackNerd is proud to be recognized among America’s fastest-growing private companies,
+including the Inc. 5000, Inc. Regionals Pacific, and the 2026 Inc. 5000 national list.
+2026
+#3693
+Inc. 5000
+National
+2026
+#90
+Inc. Regionals
+Pacific
+2025
+#3036
+Inc. 5000
+National
+2025
+#94
+Inc. Regionals
+Pacific
+2024
+#58
+Inc. Regionals
+Pacific
+2024
+#1506
+Inc. 5000
+National
+View our Inc. profile
+Shared Hosting questions
+Need a hand choosing a home for your website? Contact us.
+Which control panel is included?
+Every shared hosting plan includes AdminBolt. Manage your domains, website files, email accounts, databases, DNS records, and SSL certificates from its control panel.
+How many domains can I host?
+The 35 GB plan includes 5 domains. The 90 GB and 200 GB plans include unlimited domains, within your plan’s storage and resource limits.
+How does the AI assistant help?
+Ask AdminBolt’s built-in AI assistant to check usage and help manage email accounts, domains, DNS records, and databases in plain language. It works within your hosting account’s permissions.
+Can I install WordPress?
+Yes. Use the included Softaculous app installer to install WordPress and other popular applications, then manage your website from its WordPress dashboard.
+Will you migrate my existing website?
+Yes. Free migration is included. Submit a support ticket after ordering so our team can review and help move your website.
+How do daily backups and restores work?
+Daily backups are powered by JetBackup and retained for 30 days. Access available backups and restore tools from your control panel.
+Can I upgrade my hosting plan later?
+Yes. You can request an upgrade through the client area or contact our team for help selecting a larger plan.
+Where is my shared hosting located?
+Dallas, USA Datacenter Location. All AdminBolt shared hosting plans on this page are hosted in Dallas.
+Are SSL certificates included?
+Yes. Free SSL certificates are included with all shared hosting plans.
+Do RackNerd plans include a free Clientexec license?
+Yes. RackNerd includes a free Clientexec license with any active VPS, shared hosting, reseller hosting, or dedicated server plan. If you buy directly from Clientexec, the regular price for a branded license is $16.95/month. Open a support ticket to request yours.
+Clientexec combines billing, a help desk, and customer relationship management (CRM). If you sell hosting, you can automate account setup with a supported control panel and invoice customers at renewal. You can also bill for a one-time design project or a monthly maintenance plan and keep each client’s payments and support tickets in one place.
+Black Friday Reseller Hosting Deals
+Sell hosting under your own brand and bill customers with your FREE Clientexec License.
+Reseller – 80 GB
+$29.88/year
+15
+Hosting Accounts
+SSD Storage80 GB
+Monthly Transfer5 TB
+FREE Clientexec License
+Create and send invoices to your hosting customers.
+AdminBolt Reseller & Control Panels
+Free Account Migrations
+White-Label Hosting
+Free SSL Certificates
+Free Daily Backups
+LiteSpeed Web Server
+AI MCP Support
+Softaculous Installer
+CloudLinux OS
+Dallas, USA Datacenter Location Order Now
+Reseller – 115 GB
+Featured plan
+$54.88/year
+25
+Hosting Accounts
+SSD Storage115 GB
+Monthly Transfer20 TB
+FREE Clientexec License
+Create and send invoices to your hosting customers.
+AdminBolt Reseller & Control Panels
+Free Account Migrations
+White-Label Hosting
+Free SSL Certificates
+Free Daily Backups
+LiteSpeed Web Server
+AI MCP Support
+Softaculous Installer
+CloudLinux OS
+Dallas, USA Datacenter Location Order Now
+Reseller – 185 GB
+$84.88/year
+50
+Hosting Accounts
+SSD Storage185 GB
+Monthly Transfer30 TB
+FREE Clientexec License
+Create and send invoices to your hosting customers.
+AdminBolt Reseller & Control Panels
+Free Account Migrations
+White-Label Hosting
+Free SSL Certificates
+Free Daily Backups
+LiteSpeed Web Server
+AI MCP Support
+Softaculous Installer
+CloudLinux OS
+Dallas, USA Datacenter Location Order Now
+CloudLinux LVE limits
+Each customer hosting account you create in AdminBolt gets its own set of these limits. Your reseller plan sets the total SSD storage and monthly transfer.
+CloudLinux LVE limits per customer account
+ResourcePer-account limit
+CPU
+100% of one core
+Physical memory (RAM)
+2 GB
+Disk throughput (I/O)
+80 MB/s
+Disk operations (IOPS)
+15,000 per second
+Entry processes (EP / EPROC)
+200
+Processes and threads (NPROC)
+220
+Files and directories (inodes)
+No limit
+Your plan’s disk space allowance still applies to the files you store.
+Your hosting brand. Backed by RackNerd.
+Create hosting packages, manage customer accounts, and grow your business with AdminBolt. We take care of the infrastructure.
+AdminBolt Reseller Panel
+Create hosting packages and manage separate customer accounts.
+White-Label Hosting
+Keep your hosting business under your brand.
+FREE Clientexec License
+Billing software for your hosting business.
+LiteSpeed Performance
+Fast website delivery with LSCache.
+Free Daily Backups
+Daily backups powered by JetBackup, with a 30-day retention period for your hosting accounts.
+Free Account Migrations
+Our team helps move your customer accounts to AdminBolt.
+AI MCP Support
+Connect compatible AI tools to manage your hosting accounts and packages.
+24/7 Support
+Support for your reseller hosting service.
+Powered by
+The tools behind your hosting business.
+Hosting management with AdminBolt, plus a FREE Clientexec License for your billing.
+Reseller panel
+AdminBolt
+Hosting accounts
+studio.exampleshop.examplehello.example
+Create hosting packages and manage customer accounts.
+Control Panel
+AdminBolt
+Your hosting, at a glance
+DomainsEmailFilesDatabasesSSLDNS
+Give every customer their own space to manage their website.
+Clientexec
+Customer billing
+INVOICEHosting servicePaid
+CustomersBilling & invoices
+FREE Clientexec License for customer billing and invoices.
+Your brand, your customers. RackNerd manages the infrastructure.
+Choose your reseller plan
+Recognized by Inc. Magazine
+RackNerd is proud to be recognized among America’s fastest-growing private companies,
+including the Inc. 5000, Inc. Regionals Pacific, and the 2026 Inc. 5000 national list.
+2026
+#3693
+Inc. 5000
+National
+2026
+#90
+Inc. Regionals
+Pacific
+2025
+#3036
+Inc. 5000
+National
+2025
+#94
+Inc. Regionals
+Pacific
+2024
+#58
+Inc. Regionals
+Pacific
+2024
+#1506
+Inc. 5000
+National
+View our Inc. profile
+Reseller Hosting questions
+Questions about your reseller business? Contact us.
+Can I sell hosting under my own brand?
+Yes. Reseller hosting includes white-label hostnames and nameservers. Use the AdminBolt reseller panel to create hosting packages and manage your customers; each customer gets their own AdminBolt control panel.
+Do RackNerd plans include a free Clientexec license?
+Yes. RackNerd includes a free Clientexec license with any active VPS, shared hosting, reseller hosting, or dedicated server plan. If you buy directly from Clientexec, the regular price for a branded license is $16.95/month. Open a support ticket to request yours.
+Clientexec combines billing, a help desk, and customer relationship management (CRM). If you sell hosting, you can automate account setup with a supported control panel and invoice customers at renewal. You can also bill for a one-time design project or a monthly maintenance plan and keep each client’s payments and support tickets in one place.
+How many hosting accounts are included?
+The 80 GB plan includes 15 hosting accounts, the 115 GB plan includes 25, and the 185 GB plan includes 50. Each account has its own AdminBolt control panel.
+Can I manage my reseller hosting with AI?
+Yes. AdminBolt supports MCP (Model Context Protocol), so compatible AI tools can help list and create your hosting accounts and manage hosting packages. Access is limited to your own reseller accounts and permissions. Your customers can use the in-panel AI assistant for tasks within their own hosting accounts.
+Can you migrate my existing hosting accounts?
+Yes. Free account migration assistance is included. Open a support ticket after ordering so our team can review your current platform and coordinate the move to AdminBolt.
+Can I upgrade or add more hosting accounts?
+You can upgrade your reseller plan as your business grows. Contact our team to discuss additional account requirements.
+How do daily backups and restores work?
+Daily backups are powered by JetBackup and retained for 30 days. Access available backups and restore tools through the control panel.
+Where is my reseller hosting located?
+Dallas, USA Datacenter Location. All AdminBolt reseller hosting plans on this page are hosted in Dallas.
+Who manages the underlying servers?
+RackNerd maintains the servers and hosting platform. You manage your hosting packages, customer accounts, and your relationship with your customers.
+Black Friday Dedicated Servers Deals
+Intel Xeon dedicated servers with full root access. Ideal for virtualization purposes, or for demanding workloads that need an entire physical server with resources fully dedicated to you.
+For dedicated server plans, allow up to 2-3 days for provisioning.
+Dedicated server builds are built to order, so setup is not instant. For immediate setup, see our VPS plans.
+Black Friday dedicated server configurations and pricing
+Processor & Location
+MemoryStorageBandwidthIPv4 Monthly price
+Order
+Intel Xeon E3-1230 V2
+First Available (US)
+Memory16 GB RAM
+Storage256 GB SSD
+Bandwidth30 TB @ 1Gbps
+IPv45 IPs (/29)
+$64/month
+Order Now
+Dual Xeon L5520
+Seattle
+Memory48 GB RAM
+Storage1 TB SATA HDD
+Bandwidth30 TB @ 1Gbps
+IPv45 IPs (/29)
+$75/month
+Order Now
+Dual Xeon E5-2660
+Seattle
+Memory64 GB RAM
+Storage1 TB SSD
+BandwidthUnmetered 1Gbps
+IPv45 IPs (/29)
+$139/month
+Order Now
+Popular Dual Xeon E5-2683 V4
+Seattle
+Memory128 GB RAM
+Storage2 TB SSD
+BandwidthUnmetered 1Gbps
+IPv45 IPs (/29)
+$199/month
+Order Now
+Need a different configuration? Contact sales.
+Dedicated hardware. Complete control.
+Reliable, high-performance dedicated servers with the control and flexibility you need.
+Physical hardware
+Your own physical server, with CPU, RAM, and storage dedicated to you.
+Full root access
+Install and run your own OS and software, with full root access included.
+Storage options
+We have SATA HDD and SSD options available — see each plan for what’s included.
+1Gbps bandwidth
+Every plan includes a 1Gbps port. Transfer or unmetered varies by plan.
+OS & custom ISO
+Choose Linux, Windows, or FreeBSD, or ask about a custom ISO install.
+Optimized network
+Traffic is routed over our BGP optimized network with multiple carriers, ensuring top speeds.
+US datacenters
+Most dedicated servers deploy in our Seattle DC (only the E3-1230 V2 is deployed in a random, First Available US datacenter).
+24/7 support
+Our support team is available around the clock when you need a hand.
+Your hardware. Your control.
+Dedicated compute, the storage listed on your plan, and the freedom to run your software.
+Dedicated resources
+OS installation
+SSD, HDD & more
+Resources for your workloads
+Your own physical server, with dedicated CPU, memory, and storage.
+Storage that matches the plan
+SSD, HDD, and other drive types, as listed on each configuration.
+Choose your environment
+Linux, Windows or FreeBSD; ask about custom installation needs.
+Provisioning may take up to 2–3 days. Deployment location follows the selected plan.
+Recognized by Inc. Magazine
+RackNerd is proud to be recognized among America’s fastest-growing private companies,
+including the Inc. 5000, Inc. Regionals Pacific, and the 2026 Inc. 5000 national list.
+2026
+#3693
+Inc. 5000
+National
+2026
+#90
+Inc. Regionals
+Pacific
+2025
+#3036
+Inc. 5000
+National
+2025
+#94
+Inc. Regionals
+Pacific
+2024
+#58
+Inc. Regionals
+Pacific
+2024
+#1506
+Inc. 5000
+National
+View our Inc. profile
+Dedicated Server questions
+Need help with a configuration? Contact us.
+How long does dedicated server deployment take?
+Dedicated servers are physical machines built specifically for you. Setup is not instant and provisioning may take up to 2–3 days. For instant setup, choose our VPS plans.
+Which datacenter locations are available?
+The Dual Xeon L5520, E5-2660, and E5-2683 V4 deploy in Seattle. The Intel Xeon E3-1230 V2 is provisioned at the first available US datacenter based on inventory. Contact sales before ordering if you need a different location.
+Can I customize the server configuration?
+Contact sales with your CPU, memory, storage, bandwidth, and IP requirements. Our team can help you find an available configuration or discuss a custom solution.
+Are the server resources dedicated to me?
+Yes. The physical server’s processor, memory, and storage are dedicated to your workloads.
+Can I reinstall the operating system later?
+Contact support to arrange an operating system reinstall and confirm the installation requirements. Back up your data before a reinstall.
+Can you install an operating system or custom ISO?
+We can help with Linux, Windows, FreeBSD, and custom installation requirements. Contact sales to confirm compatibility, licensing, and any installation needs before ordering.
+Do RackNerd plans include a free Clientexec license?
+Yes. RackNerd includes a free Clientexec license with any active VPS, shared hosting, reseller hosting, or dedicated server plan. If you buy directly from Clientexec, the regular price for a branded license is $16.95/month. Open a support ticket to request yours.
+Clientexec combines billing, a help desk, and customer relationship management (CRM). If you sell hosting, you can automate account setup with a supported control panel and invoice customers at renewal. You can also bill for a one-time design project or a monthly maintenance plan and keep each client’s payments and support tickets in one place.
 RackNerd was founded by industry experts
 with a passion for datacenter environments and server builds.
 Here at RackNerd, we're on a mission to introduce infrastructure stability on a global scale - one server at a time. Learn more about our story and why you should choose RackNerd for your infrastructure as a service (IaaS) needs!
